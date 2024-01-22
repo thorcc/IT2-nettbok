@@ -11,18 +11,18 @@
 
 ## Denne uken
 
+- IT-uke: 18
+- Ukens fagstoff: [Løkker](/databehandling-og-algoritmer/lokker-lister-og-ordboker), [filhåndtering](/databehandling-og-algoritmer/filhandtering) og [større oppgaver](/databehandling-og-algoritmer/storre-oppgaver)
+- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
+- Ukens oppgaver:
+  - Gjør enten 1 eller 2
+    1. [2.9](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgave-29), [2.12](/databehandling-og-algoritmer/algoritmer#oppgave-212)
+    2. [2.13](/databehandling-og-algoritmer/storre-oppgaver#215---youtube) og [2.17](/databehandling-og-algoritmer/api#oppgaver)
+
+## Forrige uke
+
 - IT-uke: 17
 - Ukens fagstoff: [Algoritmer](/databehandling-og-algoritmer/algoritmer)
 - Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
 - Ukens oppgaver:
-  - Gjør oppgave 9 til 11 i [pseudokode og flytdiagram](/databehandling-og-algoritmer/oppgaver/pseudokode-og-flytdiagram)
-  - Gjør oppgave 1 og 2 i [databehandling](/databehandling-og-algoritmer/oppgaver/databehandling)
-
-## Forrige uke
-
-- IT-uke: 16
-- Ukens fagstoff: [Pseudokode og flytdiagram](/databehandling-og-algoritmer/pseudokode-og-flytdiagram)
-- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
-- Ukens oppgaver:
-  - Lag Github-repository for IT2-2324
-  - Gjør [oppgave 1 til 8](/databehandling-og-algoritmer/oppgaver/pseudokode-og-flytdiagram)
+  - Gjør [2.6](/databehandling-og-algoritmer/pseudokode#oppgave-26), [2.10, 2.11](/databehandling-og-algoritmer/pseudokode#oppgaver), [2.12 og 2.13](/databehandling-og-algoritmer/storre-oppgaver#oppgaver)

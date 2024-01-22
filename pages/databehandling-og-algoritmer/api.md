@@ -52,3 +52,15 @@ værtype = data["properties"]["timeseries"][0]["data"]["next_1_hours"]["summary"
 temperatur = data["properties"]["timeseries"][0]["data"]["instant"]["details"]["air_temperature"]
 print(f"I Sandvika er det {temperatur} grader og {værtype}")
 ```
+
+## Oppgaver
+
+### Oppgave 2.17
+
+Lag et værprogram der brukeren kan skrive inn koordinater og få ut hvordan været på det aktuelle stedet.
+
+### Oppgave 2.18
+
+- [https://developer.entur.org/](https://developer.entur.org/)
+
+Bruk Enturs API og lag et program der brukeren kan skrive inn et busstopp, og få ut hvor lenge det er til neste buss/tog/trikk kommer.
