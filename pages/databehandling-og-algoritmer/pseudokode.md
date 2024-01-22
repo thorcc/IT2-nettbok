@@ -7,6 +7,8 @@ Og de er en god måte å lære grunnleggende programmeringskonsepter på, da det
 
 ## Eksempel: utregning av utbetaling per avspilling på Spotify
 
+### Med pseudokode
+
 ```pseudo
 SET land TO READ "Hvilket land er du fra?"
 IF land EQUAL TO Norge
@@ -18,7 +20,7 @@ ELSE
 ENDIF
 ```
 
-### Python-kode
+### Med python-kode
 
 ```python
 land = input("Hvilket land kommer du fra? ")
