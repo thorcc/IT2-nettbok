@@ -1,15 +1,8 @@
-# Oppgaver - Databehandling
+# Større oppgaver
 
-> Oppgavene besvares i egne filer, én fil per oppgave.
+## Oppgaver
 
-- [Oppgave 1](#oppgave-1)
-- [Oppgave 2](#oppgave-2)
-- [Oppgave 3: H23-11](#oppgave-3-h23-11)
-- [Oppgave 4: V23-9](#oppgave-4-v23-9)
-
-## Oppgave 1
-
-### Spotify Weekly Top Songs Global
+### 2.13 - Spotify Weekly Top Songs Global
 
 1. Hvilken sang har flest uker på Spotifys Weekly Top Songs Global?
 2. Hvor mange streams har Taylor Swift til sammen på sangene hennes som er på topplista?
@@ -18,9 +11,7 @@
 - Fil: [../vedlegg/spotify-weekly-top-songs-global-uke2-2023.json](../vedlegg/spotify-weekly-top-songs-global-uke2-2023.json)
 - Tips: Se [../algoritmer.md#eksempel-2-spotify](../algoritmer.md#eksempel-2-spotify)
 
-## Oppgave 2
-
-### IMDB Topp 250
+### 2.14 - IMDB Topp 250
 
 1. Hvilken film ligger øverst på listen og hvem har regissert den?
 2. Hva er gjennomsnittskarakteren til alle filmene på listen?
@@ -31,9 +22,9 @@
 
 - Fil: [../vedlegg/imdb_top250.json](../vedlegg/imdb_top250.json)
 
-## Oppgave 3: H23-11
+### 2.15 - YouTube
 
-### YouTube-statistikk
+> Oppgave 11 fra eksamen H23
 
 Du skal lage et program som leser inn informasjon fra et datasett og presenterer den. Last ned datasettet her:
 
@@ -47,9 +38,9 @@ a) Lag et program som finner og presenterer de ti landene i datasettet som har f
 
 b) Utvid programmet til å regne ut og presentere gjennomsnittlig antall abonnenter og videovisninger per kanal for hvert av disse landene.
 
-## Oppgave 4: V23-9
+### 2.16 - Google Play Store
 
-### Oversikt over apper i Google Play Store
+> Oppgave 9 fra eksamen V23
 
 Du skal lage et program som leser inn informasjon fra datasettet og presenterer dette i to oversikter.
 Last ned datasettet her:

@@ -2,18 +2,21 @@
 
 ## Plan
 
-| IT-Uke | Tirsdag | Torsdag | Emne                                                                                            |
-| ------ | ------- | ------- | ----------------------------------------------------------------------------------------------- |
-| 16     | 9. jan  | 11. jan | [Pseudokode og flytdiagram](/databehandling-og-algoritmer/pseudokode-og-flytdiagram)            |
-| 17     | 16. jan | 18. jan | [Algoritmer](/databehandling-og-algoritmer/algoritmer) og [lese fra fra fil](/databehandling-og-algoritmer/lese-fra-fil) |
-| 18     | 23. jan | 25. jan | API-er og plotting                                                                              |
-| 19     | 30. jan | 1. jan  | Flask og etiske dilemma                                                                         |
-| 20     | 6. feb  | 8. feb  | Prøve                                                                                           |
+| IT-Uke | Tirsdag | Torsdag | Emne                                                                                                                                                                                                |
+| ------ | ------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 16     | 9. jan  | 11. jan | [Pseudokode](/databehandling-og-algoritmer/pseudokode) og [flytdiagram](/databehandling-og-algoritmer/flytdiagram)                                                                                  |
+| 17     | 16. jan | 18. jan | [Algoritmer](/databehandling-og-algoritmer/algoritmer)                                                                                                                                              |
+| 18     | 23. jan | 25. jan | [Løkker](/databehandling-og-algoritmer/lokker-lister-og-ordboker), [filhåndtering](/databehandling-og-algoritmer/filhandtering) og [større oppgaver](/databehandling-og-algoritmer/storre-oppgaver) |
+| 19     | 30. jan | 1. jan  | Plotting, Flask og [API-er](/databehandling-og-algoritmer/api)                                                                                                                                      |
+| 20     | 6. feb  | 8. feb  | Prøve                                                                                                                                                                                               |
 
 ## Oppgaver
 
-- [Pseudokode og flytdiagram](/databehandling-og-algoritmer/oppgaver/pseudokode-og-flytdiagram)
-- [Databehandling](/databehandling-og-algoritmer/oppgaver/databehandling)
+- [2.1 - 2.4: Pseudokode](/databehandling-og-algoritmer/pseudokode#oppgaver)
+- [2.5 - 2.6: Flytdiagram](/databehandling-og-algoritmer/flytdiagram#oppgaver)
+- [2.7 - 2.9: Løkker, lister og ordbøker](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgaver)
+- [2.10 - 2.12: Algoritmer](/databehandling-og-algoritmer/algoritmer#oppgaver)
+- [2.13 - 2.16: Større oppgaver](/databehandling-og-algoritmer/storre-oppgaver#oppgaver)
 
 ## Ekstra ressurser
 
