@@ -4,14 +4,15 @@
 
 ### 2.13 - Spotify Weekly Top Songs Global
 
+Fil: [spotify-weekly-top-songs-global-uke2-2023.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/spotify-weekly-top-songs-global-uke2-2023.json)
+
 1. Hvilken sang har flest uker på Spotifys Weekly Top Songs Global?
 2. Hvor mange streams har Taylor Swift til sammen på sangene hennes som er på topplista?
 3. Hvilken sang gikk opp flest plasseringer fra forrige uke til denne?
 
-- Fil: [../vedlegg/spotify-weekly-top-songs-global-uke2-2023.json](../vedlegg/spotify-weekly-top-songs-global-uke2-2023.json)
-- Tips: Se [../algoritmer.md#eksempel-2-spotify](../algoritmer.md#eksempel-2-spotify)
-
 ### 2.14 - IMDB Topp 250
+
+Fil: [imdb_top250.json]([imdb_top250.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/imdb_top250.json))
 
 1. Hvilken film ligger øverst på listen og hvem har regissert den?
 2. Hva er gjennomsnittskarakteren til alle filmene på listen?
@@ -19,8 +20,6 @@
 4. Hvilken regissør har regissert flest filmer på listen?
    - For hver film er regisørrer en liste. Her holder det med første regissør i listen.
    - Bonus: Alle regisørrene i regissørlistene skal telles med.
-
-- Fil: [../vedlegg/imdb_top250.json](../vedlegg/imdb_top250.json)
 
 ### 2.15 - YouTube
 
