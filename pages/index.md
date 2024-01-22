@@ -17,7 +17,7 @@
 - Ukens oppgaver:
   - Gjør enten 1 eller 2
     1. [2.9](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgave-29), [2.12](/databehandling-og-algoritmer/algoritmer#oppgave-212)
-    2. [2.13](/databehandling-og-algoritmer/storre-oppgaver#215---youtube) og [2.17](/databehandling-og-algoritmer/api#oppgaver)
+    2. [2.13](/databehandling-og-algoritmer/storre-oppgaver#215---youtube), les [notat om API-er](/databehandling-og-algoritmer/api) og [2.17](/databehandling-og-algoritmer/api#oppgaver)
 
 ## Forrige uke
 
