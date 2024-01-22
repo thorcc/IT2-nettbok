@@ -1,10 +1,5 @@
 # Databehandling og algoritmer
 
-- [Plan](#plan)
-- [Oppgaver](#oppgaver)
-- [Ekstra ressurser](#ekstra-ressurser)
-- [Vurderingskriterier](#vurderingskriterier)
-
 ## Plan
 
 | IT-Uke | Tirsdag | Torsdag | Emne                                                                                            |

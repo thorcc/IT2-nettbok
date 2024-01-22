@@ -1,9 +1,5 @@
 # IT2 - 2023/2024
 
-- [Viktige datoer](#viktige-datoer)
-- [Denne uken](#denne-uken)
-- [Forrige uke](#forrige-uke)
-
 ## Viktige datoer
 
 | Tirsdag | Torsdag           | Beksrivelse                                                             |

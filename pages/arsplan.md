@@ -1,8 +1,5 @@
 # Årsplan
 
-- [Oversikt](#oversikt)
-- [Detaljert](#detaljert)
-
 ## Oversikt
 
 | Ukenr   | Emne                                                            | Kommentar                  |
