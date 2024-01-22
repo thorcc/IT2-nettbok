@@ -1,15 +1,20 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": "Oversikt",
+  "databehandling-og-algoritmer": "Databehandling og algoritmer",
+  "ukeplaner": {
+    "title": "Ukeplaner",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
-    "type": "page",
-    "href": "https://twitter.com/shuding_",
-    "newWindow": true
+  "emner": {
+    "title": "Emneoversikt",
+    "type": "page"
+  },
+  "arsplan": {
+    "title": "Årsplan",
+    "type": "page"
+  },
+  "vurderingskriterier": {
+    "title": "Vurderingskriterier",
+    "type": "page"
   }
 }

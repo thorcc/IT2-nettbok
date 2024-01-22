@@ -11,12 +11,12 @@
     "type": "git",
     "url": "git+https://github.com/shuding/nextra-docs-template.git"
   },
-  "author": "Shu Ding <g@shud.in>",
+  "author": "thorcc",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/shuding/nextra-docs-template/issues"
+    "url": "https://github.com/thorcc/IT2-nettbok/issues"
   },
-  "homepage": "https://github.com/shuding/nextra-docs-template#readme",
+  "homepage": "https://github.com/thorcc/IT2-nettbok",
   "dependencies": {
     "next": "^13.0.6",
     "nextra": "latest",
