@@ -1,15 +1,5 @@
 # Algoritmer
 
-- [Hva er en algoritme?](#hva-er-en-algoritme)
-- [Algoritme 1: høyeste tallet i en liste](#algoritme-1-høyeste-tallet-i-en-liste)
-- [Algoritme 2: Gjennomsnitt av tallene i en liste](#algoritme-2-gjennomsnitt-av-tallene-i-en-liste)
-- [Algoritme 3: Nest høyeste tallet i en liste](#algoritme-3-nest-høyeste-tallet-i-en-liste)
-- [Algoritme 4: n-høyeste tall i en liste](#algoritme-4-n-høyeste-tall-i-en-liste)
-- [Algoritme 5: Sortere en liste med ordbøker](#algoritme-5-sortere-en-liste-med-ordbøker)
-- [Algoritme 6: Sortere en ordbok med verdier](#algoritme-6-sortere-en-ordbok-med-verdier)
-
-## Hva er en algoritme?
-
 - Hvis du gir en _presis_ beskrivelse for hvordan man skal løse et _problem_, så har du
   beskrevet det vi kaller en algoritme
 - En algoritme består av en serie med små og entydige steg
@@ -53,10 +43,6 @@ For eksempel er det å finne det høyeste tallet i en liste med tall et ganske v
 ```python
 print(max([2, -4, 5, 1])) # -> 5
 ```
-
-### Algoritmen i bruk
-
-- [Eksempel på bruk av algoritmen som finner høyeste tall i listen](./vedlegg/spotify.ipynb)
 
 ## Algoritme 2: Gjennomsnitt av tallene i en liste
 
@@ -204,3 +190,124 @@ personer_sortert = sorted(personer.items(), key=lambda person: person[1], revers
 print(personer_sortert) # -> [('Ravi', 39), ('Thor', 33)]
 print(personer_sortert[0][0]) # -> 'Ravi'
 ```
+
+## Oppgaver
+
+### Oppgave 2.10
+
+> Oppgave 5 fra eksamen V23
+
+Nedenfor finner du flere linjer med pseudokode. Sorter linjene i riktig rekkefølge, slik at det blir pseudokoden til et program som skal finne det største tallet av tre tall. Tips: Linjene med pseudokode har ikke innrykk/indentering.
+
+![v23-5](./bilder/v23-5.png)
+
+Eksempel på svar:
+
+```pseudo
+1-G
+2-A
+3-D
+...
+```
+
+### Oppgave 2.11
+
+> Oppgave 6 fra eksamen H23
+
+a) Du får i oppgave å finne det nest største tallet i en liste (array) med tall. Dersom det finnes flere like tall som er størst, skal ingen av disse regnes som nest størst. Under finner du fire alternative løsninger for denne oppgaven skrevet i pseudokode. Hvilke to løsninger er riktige?
+
+```pseudo
+1
+SET størst TO negativt uendelig tall
+FOR hvert tall i listen
+  IF tall GREATER THAN størst
+    SET størst TO tall
+  ENDIF
+ENDFOR
+Fjern størst fra listen
+SET nestStørst TO negativt uendelig tall
+FOR hvert tall i listen
+  IF tall GREATER THAN nestStørst 
+    SET nestStørst TO tall
+  ENDIF
+ENDFOR
+DISPLAY nestStørst
+
+2
+SET størst TO første tall i listen
+SET nestStørst TO andre tall i listen
+IF nestStørst GREATER THAN størst
+  Bytt størst og nestStørst
+ENDIF
+FOR hvert tall i listen med start fra tredje tall
+  IF tall GREATER THAN størst
+    SET nestStørst TO størst
+    SET størst TO tall
+  ELSEIF tall GREATER THAN nestStørst AND tall NOT EQUAL TO størst
+  SET nestStørst TO tall
+  ENDIF
+ENDFOR
+DISPLAY nestStørst
+
+3
+SET størst TO negativt uendelig tall
+SET nestStørst TO negativt uendelig tall
+FOR hvert tall i listen
+  IF tall GREATER THAN størst
+    SET nestStørst TO størst
+    SET størst TO tall
+  ELSEIF tall GREATER THAN nestStørst
+    SET nestStørst TO tall
+  ENDIF
+ENDFOR
+DISPLAY nestStørst
+
+4
+Sorter listen i synkende rekkefølge
+FOR hvert tall i listen
+    IF tall NOT EQUAL TO neste tall i listen
+        DISPLAY neste tall i listen
+        avbryt for-løkken
+    ENDIF
+ENDFOR
+```
+
+Velg de to riktige løsningene.
+
+- [ ] 1
+- [ ] 2
+- [ ] 3
+- [ ] 4
+
+b) Skriv en kort tekst der du vurderer og sammenligner de to løsningene du valgte i punkt a.
+
+### Oppgave 2.12
+
+> Oppgave 7 fra eksamen H23
+
+Elementene i en indeksert variabel (liste/array) skal sorteres i stigende rekkefølge etter følgende algoritme: Man sammenligner hvert element fra venstre til høyre i listen med neste element, og hvis elementet er større enn neste element, bytter de plass. Deretter går man videre til neste element og sammenligner på nytt frem til hele listen er gjennomgått. Dette gjentas til hele listen gjennomgås uten at det forekommer noen ombyttinger.
+
+Under finner du deler av pseudokoden for denne algoritmen. Her er a en liste med n elementer, og a[ i ] er elementet på plass i i listen.
+
+```pseudo
+SET i TO 0
+FOR hver i LESSER THAN n - 1
+  IF a[i] GREATER THAN a[i+1]    
+    CALL byttPlass()
+  ENDIF
+ENDFOR
+```
+
+> Presisering: byttPlass() er en funksjon som bytter plass på to naboelementer i listen.
+
+a) Hva blir innholdet i listen etter at vi har kjørt programmet representert ved pseudokoden over for listen a = [8, 5, 2, 6, 12], som har n = 5 elementer?
+Velg riktig svar.
+
+- [ ] `[ 5, 8, 2, 6, 12 ]`
+- [ ] `[ 5, 2, 8, 6, 12 ]`
+- [ ] `[ 5, 2, 6, 8, 12 ]`
+- [ ] `[ 2, 5, 6, 8, 12 ]`
+
+b) Utvid pseudokoden slik at programmet den representerer, sorterer ferdig listen a i stigende rekkefølge etter altgoritmen som er vist øverst. Forklar endringene du gjør. Obs! Du må også lage pseudokode for funksjonen byttPlass().
+
+c) Implementer pseudokoden fra punkt b i ditt programmeringsspråk. Listen skal leses inn automatisk, og den ferdig sorterte listen skal skrives til konsollet eller vises i programmet.
