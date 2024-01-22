@@ -10,6 +10,18 @@ const config: DocsThemeConfig = {
   footer: {
     text: 'IT2 på Sandvika 2023/2024',
   },
+  feedback: {
+    content: null
+  },
+  editLink: {
+    text: null
+  },
+  useNextSeoProps() {
+    return {
+      titleTemplate: '%s - IT2'
+    }
+  }
 }
+
 
 export default config
