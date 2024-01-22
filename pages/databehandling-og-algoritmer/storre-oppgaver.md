@@ -12,7 +12,7 @@ Fil: [spotify-weekly-top-songs-global-uke2-2023.json](https://raw.githubusercont
 
 ### 2.14 - IMDB Topp 250
 
-Fil: [imdb_top250.json]([imdb_top250.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/imdb_top250.json))
+Fil: [imdb_top250.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/imdb_top250.json)
 
 1. Hvilken film ligger øverst på listen og hvem har regissert den?
 2. Hva er gjennomsnittskarakteren til alle filmene på listen?
