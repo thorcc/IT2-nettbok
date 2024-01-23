@@ -55,11 +55,11 @@ print(f"I Sandvika er det {temperatur} grader og {værtype}")
 
 ## Oppgaver
 
-### Oppgave 2.17
+### Oppgave 2.18
 
 Lag et værprogram der brukeren kan skrive inn koordinater og få ut hvordan været på det aktuelle stedet.
 
-### Oppgave 2.18
+### Oppgave 2.19
 
 - [https://developer.entur.org/](https://developer.entur.org/)
 

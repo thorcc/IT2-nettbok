@@ -108,3 +108,39 @@ spillere = ["Sagosen", "Tønnesen", "O'Sullivan"]
 with open("handballspillere.json", "w", encoding="utf-8") as fil:
     json.dump(spillere, fil, ensure_ascii=False, indent=2)
 ```
+## Oppgaver
+
+### Oppgave 2.13
+
+Lag et TODO-program, som leser og skriver gjøremål fra/til en `.txt`-fil.
+
+<details>
+<summary>Klikk her for ferdig program uten filhåndtering</summary>
+
+```python
+print("-- Huskelista --")
+
+## Les inn fil her 
+
+huskelisten = [] # denne skal byttes ut med innlesing av fil
+
+# ---
+
+brukervalg = ""
+while brukervalg != "avslutt":
+    for gjøremål in huskelisten:
+        print(f"- {gjøremål}")
+    print("Skriv nytt gjøremål for å legge til i huskelista, avslutt asvlutter programmer")
+    brukervalg = input("> ")
+    if brukervalg != "avslutt":
+        huskelisten.append(brukervalg)
+
+print("Avslutter")    
+
+## Skriv til fil her
+
+
+# ---
+```
+
+</details>
