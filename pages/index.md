@@ -26,5 +26,3 @@
 - Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
 - Ukens oppgaver:
   - Gjør [2.6](/databehandling-og-algoritmer/pseudokode#oppgave-26), [2.10, 2.11](/databehandling-og-algoritmer/pseudokode#oppgaver), [2.12 og 2.13](/databehandling-og-algoritmer/storre-oppgaver#oppgaver)
-
-.

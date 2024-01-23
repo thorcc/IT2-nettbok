@@ -36,5 +36,3 @@
 |                                   | implementerer kode uten syntaksfeil                                                                       | ivaretar vern mot kjøretidsfeil og logiske feil i enkle og sammensatte programmer          | ivaretar vern mot kjøretidsfeil og logiske feil i avanserte programmer                                       |
 | **Modellering og representasjon** | representerer programflyt med enkle kontrollstrukturer                                                    | representerer programflyt med hensiktsmessige sammensatte kontrollstrukturer               | representerer programflyt med hensiktsmessige og effektive avanserte kontrollstrukturer                      |
 |                                   | peker på brukervennlighet i programmer                                                                    | forklarer ulike sider ved brukervennlighet i programmer                                    | vurderer brukervennlighet i programmer og foreslår hensiktsmessige                                           |
-
-.

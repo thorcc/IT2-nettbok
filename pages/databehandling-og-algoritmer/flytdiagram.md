@@ -79,5 +79,3 @@ Hvilken sekvens med pseudokode gir __*lik visning av output*__ som algoritmen be
 - [ ] 2
 - [ ] 3
 - [ ] 4
-
-.

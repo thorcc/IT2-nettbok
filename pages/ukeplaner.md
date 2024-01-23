@@ -26,5 +26,3 @@
 - Ukens oppgaver:
   - Lag Github-repository for IT2-2324
   - Gjør [2.1, 2.2, 2.3, 2.4](/databehandling-og-algoritmer/pseudokode#oppgaver), [2.5](/databehandling-og-algoritmer/flytdiagram#oppgaver) og [2.7 og 2.8](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgaver)
-
-.

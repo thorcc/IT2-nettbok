@@ -53,5 +53,3 @@ a) Lag et program som presenterer en oversikt over de tre største kategoriene m
 Tips: For å kunne beregne gjennomsnittet av antallet installasjoner må du tilpasse innholdet i det aktuelle datafeltet. Du vil få noe uttelling om du bare viser antallet apper og gjennomsnittsratingen.
 
 b) Utvid programmet slik at det også presenterer de tre mest populære appene, målt i antall installasjoner, i hver av disse tre kategoriene.
-
-.
