@@ -64,3 +64,54 @@ Lag et værprogram der brukeren kan skrive inn koordinater og få ut hvordan væ
 - [https://developer.entur.org/](https://developer.entur.org/)
 
 Bruk Enturs API og lag et program der brukeren kan skrive inn et busstopp, og få ut hvor lenge det er til neste buss/tog/trikk kommer.
+
+<details>
+
+<summary>Klikk her for tips</summary>
+
+```python
+
+import requests
+
+body = """
+{
+  stopPlace(id: "NSR:StopPlace:548") {
+    id
+    name
+    estimatedCalls(timeRange: 72100, numberOfDepartures: 10) {     
+      realtime
+      aimedArrivalTime
+      aimedDepartureTime
+      expectedArrivalTime
+      expectedDepartureTime
+      actualArrivalTime
+      actualDepartureTime
+      date
+      forBoarding
+      forAlighting
+      destinationDisplay {
+        frontText
+      }
+      quay {
+        id
+      }
+      serviceJourney {
+        journeyPattern {
+          line {
+            id
+            name
+            transportMode
+          }
+        }
+      }
+    }
+  }
+}
+"""
+
+response = requests.post(url="https://api.entur.io/journey-planner/v3/graphql", json={"query": body})
+data = response.json()
+print(data)
+```
+
+</details>
