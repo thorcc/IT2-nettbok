@@ -108,3 +108,5 @@ spillere = ["Sagosen", "Tønnesen", "O'Sullivan"]
 with open("handballspillere.json", "w", encoding="utf-8") as fil:
     json.dump(spillere, fil, ensure_ascii=False, indent=2)
 ```
+
+.

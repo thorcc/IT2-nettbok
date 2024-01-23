@@ -171,3 +171,5 @@ ENDFUNCTION
 Bruk funksjonen som er beskrevet ovenfor, og skriv pseudokoden til et program som regner sammen og skriver ut totalsummen av de ti første trekanttallene. Bruk dobbelt mellomrom for innrykk i koden der det er aktuelt. Skriv svaret ditt nedenfor.
 
 > OBS: Du kan bruke din egen standard for pseudokode, bare den er hensiktsmessig.
+
+.

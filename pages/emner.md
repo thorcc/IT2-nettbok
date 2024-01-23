@@ -17,3 +17,5 @@
   - gjenbrukbar kode
   - innhente, analysere og presentere data
   - vern mot kjøretidsfeil og logiske feil i programmer
+
+.

@@ -59,3 +59,5 @@
 | 36     | 04.jun  | 06.jun  | Øving til muntlig                                                      |
 | 37     | 11.jun  | 13.jun  | Muntlig eksamen                                                        |
 | 38     | 18.jun  | 20.jun  | Siste skoleuke                                                         |
+
+.
