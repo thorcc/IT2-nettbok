@@ -193,7 +193,7 @@ print(personer_sortert[0][0]) # -> 'Ravi'
 
 ## Oppgaver
 
-### Oppgave 2.10
+### Oppgave 2.12
 
 > Oppgave 5 fra eksamen V23
 
@@ -210,7 +210,7 @@ Eksempel på svar:
 ...
 ```
 
-### Oppgave 2.11
+### Oppgave 2.13
 
 > Oppgave 6 fra eksamen H23
 
@@ -281,7 +281,7 @@ Velg de to riktige løsningene.
 
 b) Skriv en kort tekst der du vurderer og sammenligner de to løsningene du valgte i punkt a.
 
-### Oppgave 2.12
+### Oppgave 2.14
 
 > Oppgave 7 fra eksamen H23
 

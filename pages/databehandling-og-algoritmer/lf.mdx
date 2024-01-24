@@ -212,7 +212,84 @@ for spiller in gullballen:
   print(f"{spiller["navn"]} ({spiller["nasjonalitet"]}) har vunnet {antall} ganger")
 ```
 
-## Oppgave 2.10
+
+### Oppgave 2.10
+
+1. Kopier listen med informasjon over de 30 mest fulgte Instagram-kontoene 👇👇 inn i en python-fil.
+
+```python
+topp_30 = [ ... ]
+```
+
+2. Hvor mange følgere har kontoene på listen i gjennomsnitt?
+
+```python
+antall_følgere = 0
+for konto in topp_30:
+  antall_følgere += kono['followers']
+snitt = antall_følgere / len(topp_30)
+print(f"Antall følgere i gjennomsnitt: {snitt}")
+```
+
+3. Hvor mange kontoer på listen kommer ikke fra USA?
+
+```python
+ikke_fra_usa = 0
+for konto in topp_30:
+  if konto['nationality'] != "United States":
+    ikke_fra_usa += 1
+print(f"Antall kontoer som ikke er fra USA: {ikke_fra_usa}")
+```
+
+### Oppgave 2.11
+
+1. Kopier listen med informasjon over de 30 mest befolkede land 👇👇 inn i en python-fil og print ordboken til Argentina.
+
+```python
+land_info = [ ... ]
+print(land_info[-1]) # argentina er det siste landet i listen, det kan hentes ut med -1
+```
+
+2. Lag en for-løkke som printer navn, hovedstad og antall språk for hvert land.
+
+```python
+for land in land_info:
+    print(f"land: {land['land']}, hovedstad: {land['hovedstad']}, antall språk: {len(land['språk'])}")
+```
+
+3. Hvilket land har flest språk?
+
+```python
+flest_språk = land_info[0]
+for land in land_info:
+    if len(land['språk']) > len(flest_språk['språk']):
+        flest_språk = land
+print(f"Landet med flest språk er {flest_språk['land']} som har {len(flest_språk['språk'])} språk")
+```
+
+4. Lag en ordbok som holder oversikt over språk og antall land som har språket som offisielt språk.
+
+```python
+språk_antall_land = {} # en tom ordbok som skal fylles med nasjonaliteter
+
+for land in land_info:
+    for språk in land['språk']:
+        if språk in språk_antall_land:
+            språk_antall_land[språk] += 1
+        else:
+            språk_antall_land[språk] = 1
+
+print(språk_antall_land)
+```
+
+5. Sorter ordboken og print ut språket med flest land og antall land.
+
+```python
+språk_sortert = sorted(språk_antall_land.items(), key=lambda språk:språk[1]) # sorterer listen i stigende rekkefølge
+print(språk_sortert[-1][0], språk_sortert[-1][1]) # språket med flest antall land er det siste i listen
+```
+
+## Oppgave 2.12
 
 > Oppgave 5 fra eksamen V23
 
@@ -229,7 +306,7 @@ Eksempel på svar:
 ...
 ```
 
-### Løsningsforslag 2.10
+### Løsningsforslag 2.12
 
 ```pseudo
 1-F

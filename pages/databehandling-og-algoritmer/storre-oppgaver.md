@@ -2,7 +2,7 @@
 
 ## Oppgaver
 
-### 2.14 - Spotify Weekly Top Songs Global
+### 2.16 - Spotify Weekly Top Songs Global
 
 Fil: [spotify-weekly-top-songs-global-uke2-2023.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/spotify-weekly-top-songs-global-uke2-2023.json)
 
@@ -10,7 +10,7 @@ Fil: [spotify-weekly-top-songs-global-uke2-2023.json](https://raw.githubusercont
 2. Hvor mange streams har Taylor Swift til sammen på sangene hennes som er på topplista?
 3. Hvilken sang gikk opp flest plasseringer fra forrige uke til denne?
 
-### 2.15 - IMDB Topp 250
+### 2.17 - IMDB Topp 250
 
 Fil: [imdb_top250.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/imdb_top250.json)
 
@@ -21,7 +21,7 @@ Fil: [imdb_top250.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/mai
    - For hver film er regisørrer en liste. Her holder det med første regissør i listen.
    - Bonus: Alle regisørrene i regissørlistene skal telles med.
 
-### 2.16 - YouTube
+### 2.18 - YouTube
 
 > Oppgave 11 fra eksamen H23
 
@@ -37,7 +37,7 @@ a) Lag et program som finner og presenterer de ti landene i datasettet som har f
 
 b) Utvid programmet til å regne ut og presentere gjennomsnittlig antall abonnenter og videovisninger per kanal for hvert av disse landene.
 
-### 2.17 - Google Play Store
+### 2.19 - Google Play Store
 
 > Oppgave 9 fra eksamen V23
 
