@@ -214,7 +214,7 @@ Eksempel på svar:
 
 > Oppgave 6 fra eksamen H23
 
-a) Du får i oppgave å finne det nest største tallet i en liste (array) med tall. Dersom det finnes flere like tall som er størst, skal ingen av disse regnes som nest størst. Under finner du fire alternative løsninger for denne oppgaven skrevet i pseudokode. Hvilke to løsninger er riktige?
+Du får i oppgave å finne det nest største tallet i en liste (array) med tall. Dersom det finnes flere like tall som er størst, skal ingen av disse regnes som nest størst. Under finner du fire alternative løsninger for denne oppgaven skrevet i pseudokode. Hvilke to løsninger er riktige?
 
 ```pseudo
 1
@@ -279,8 +279,6 @@ Velg de to riktige løsningene.
 - [ ] 3
 - [ ] 4
 
-b) Skriv en kort tekst der du vurderer og sammenligner de to løsningene du valgte i punkt a.
-
 ### Oppgave 2.14
 
 > Oppgave 7 fra eksamen H23
@@ -300,7 +298,7 @@ ENDFOR
 
 > Presisering: byttPlass() er en funksjon som bytter plass på to naboelementer i listen.
 
-a) Hva blir innholdet i listen etter at vi har kjørt programmet representert ved pseudokoden over for listen a = [8, 5, 2, 6, 12], som har n = 5 elementer?
+1. Hva blir innholdet i listen etter at vi har kjørt programmet representert ved pseudokoden over for listen a = [8, 5, 2, 6, 12], som har n = 5 elementer?
 Velg riktig svar.
 
 - [ ] `[ 5, 8, 2, 6, 12 ]`
@@ -308,6 +306,6 @@ Velg riktig svar.
 - [ ] `[ 5, 2, 6, 8, 12 ]`
 - [ ] `[ 2, 5, 6, 8, 12 ]`
 
-b) Utvid pseudokoden slik at programmet den representerer, sorterer ferdig listen a i stigende rekkefølge etter altgoritmen som er vist øverst. Forklar endringene du gjør. Obs! Du må også lage pseudokode for funksjonen byttPlass().
+2. Utvid pseudokoden slik at programmet den representerer, sorterer ferdig listen a i stigende rekkefølge etter altgoritmen som er vist øverst. Forklar endringene du gjør. Obs! Du må også lage pseudokode for funksjonen byttPlass().
 
-c) Implementer pseudokoden fra punkt b i ditt programmeringsspråk. Listen skal leses inn automatisk, og den ferdig sorterte listen skal skrives til konsollet eller vises i programmet.
+3. Implementer pseudokoden fra punkt b i ditt programmeringsspråk. Listen skal leses inn automatisk, og den ferdig sorterte listen skal skrives til konsollet eller vises i programmet.
