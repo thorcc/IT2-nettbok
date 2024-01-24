@@ -17,7 +17,7 @@ Vi sier gjerne at et flytdigram viser _flyten_ i en algoritme eller et program.
 | ![IO](./bilder/Flowchart_IO.svg)             | Input/Output | Hent inn (input) eller vis (print) data.                                                                                                                                |
 
 > [Draw.io](https://www.drawio.com/) kan brukes for å tegne flytdiagrammer.
-> Du finner symbolene for flytdiagram under `flowchart` i menyen til venstre.
+> Symbolene for flytdiagram ligger under `flowchart` i menyen til venstre.
 
 ## Oppgaver
 
