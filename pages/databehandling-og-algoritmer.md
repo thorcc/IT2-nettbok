@@ -14,9 +14,11 @@
 
 - [2.1 - 2.4: Pseudokode](/databehandling-og-algoritmer/pseudokode#oppgaver)
 - [2.5 - 2.6: Flytdiagram](/databehandling-og-algoritmer/flytdiagram#oppgaver)
-- [2.7 - 2.9: Løkker, lister og ordbøker](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgaver)
-- [2.10 - 2.12: Algoritmer](/databehandling-og-algoritmer/algoritmer#oppgaver)
-- [2.13 - 2.16: Større oppgaver](/databehandling-og-algoritmer/storre-oppgaver#oppgaver)
+- [2.7 - 2.11: Løkker, lister og ordbøker](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgaver)
+- [2.12 - 2.14: Algoritmer](/databehandling-og-algoritmer/algoritmer#oppgaver)
+- [2.15 - 2.17: Filhåndtering](/databehandling-og-algoritmer/filhandtering#oppgaver)
+- [2.18 - 2.19: API-er](/databehandling-og-algoritmer/api#oppgaver)
+- [2.20 - 2.21: Større oppgaver](/databehandling-og-algoritmer/storre-oppgaver#oppgaver)
 
 ## Ekstra ressurser
 
