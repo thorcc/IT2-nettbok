@@ -1,6 +1,5 @@
 # Løsningsforslag - Oppgaver
 
-
 ## Oppgave 2.1
 
 > Oppgave 1 fra eksamen H23
@@ -317,4 +316,280 @@ Eksempel på svar:
 6-G
 7-E
 8-D
+```
+
+## Oppgave 2.13
+
+> Oppgave 6 fra eksamen H23
+
+Du får i oppgave å finne det nest største tallet i en liste (array) med tall. Dersom det finnes flere like tall som er størst, skal ingen av disse regnes som nest størst. Under finner du fire alternative løsninger for denne oppgaven skrevet i pseudokode. Hvilke to løsninger er riktige?
+
+```pseudo
+1
+SET størst TO negativt uendelig tall
+FOR hvert tall i listen
+  IF tall GREATER THAN størst
+    SET størst TO tall
+  ENDIF
+ENDFOR
+Fjern størst fra listen
+SET nestStørst TO negativt uendelig tall
+FOR hvert tall i listen
+  IF tall GREATER THAN nestStørst 
+    SET nestStørst TO tall
+  ENDIF
+ENDFOR
+DISPLAY nestStørst
+
+2
+SET størst TO første tall i listen
+SET nestStørst TO andre tall i listen
+IF nestStørst GREATER THAN størst
+  Bytt størst og nestStørst
+ENDIF
+FOR hvert tall i listen med start fra tredje tall
+  IF tall GREATER THAN størst
+    SET nestStørst TO størst
+    SET størst TO tall
+  ELSEIF tall GREATER THAN nestStørst AND tall NOT EQUAL TO størst
+  SET nestStørst TO tall
+  ENDIF
+ENDFOR
+DISPLAY nestStørst
+
+3
+SET størst TO negativt uendelig tall
+SET nestStørst TO negativt uendelig tall
+FOR hvert tall i listen
+  IF tall GREATER THAN størst
+    SET nestStørst TO størst
+    SET størst TO tall
+  ELSEIF tall GREATER THAN nestStørst
+    SET nestStørst TO tall
+  ENDIF
+ENDFOR
+DISPLAY nestStørst
+
+4
+Sorter listen i synkende rekkefølge
+FOR hvert tall i listen
+    IF tall NOT EQUAL TO neste tall i listen
+        DISPLAY neste tall i listen
+        avbryt for-løkken
+    ENDIF
+ENDFOR
+```
+
+Velg de to riktige løsningene.
+
+- [ ] 1
+- [x] 2
+- [ ] 3
+- [x] 4
+
+## Oppgave 2.14
+
+> Oppgave 7 fra eksamen H23
+
+Elementene i en indeksert variabel (liste/array) skal sorteres i stigende rekkefølge etter følgende algoritme: Man sammenligner hvert element fra venstre til høyre i listen med neste element, og hvis elementet er større enn neste element, bytter de plass. Deretter går man videre til neste element og sammenligner på nytt frem til hele listen er gjennomgått. Dette gjentas til hele listen gjennomgås uten at det forekommer noen ombyttinger.
+
+Under finner du deler av pseudokoden for denne algoritmen. Her er a en liste med n elementer, og a[ i ] er elementet på plass i i listen.
+
+```pseudo
+SET i TO 0
+FOR hver i LESSER THAN n - 1
+  IF a[i] GREATER THAN a[i+1]    
+    CALL byttPlass()
+  ENDIF
+ENDFOR
+```
+
+> Presisering: byttPlass() er en funksjon som bytter plass på to naboelementer i listen.
+
+1. Hva blir innholdet i listen etter at vi har kjørt programmet representert ved pseudokoden over for listen a = [8, 5, 2, 6, 12], som har n = 5 elementer?
+Velg riktig svar.
+
+- [ ] `[ 5, 8, 2, 6, 12 ]`
+- [ ] `[ 5, 2, 8, 6, 12 ]`
+- [x] `[ 5, 2, 6, 8, 12 ]`
+- [ ] `[ 2, 5, 6, 8, 12 ]`
+
+2. Utvid pseudokoden slik at programmet den representerer, sorterer ferdig listen a i stigende rekkefølge etter altgoritmen som er vist øverst. 
+Forklar endringene du gjør. 
+Obs! Du må også lage pseudokode for funksjonen `byttPlass()`.
+
+```pseudo
+FUNCTION byttPlass(liste, i, j)
+  SET midlertidig TO a[i]
+  SET a[i] TO a[j]
+  set a[j] TO midlertidig 
+ENDFUNCTION
+
+
+SET bytta TO TRUE
+WHILE bytta
+  SET bytta TO FALSE
+  SET i TO 0
+  FOR hver i LESSER THAN n - 1
+    IF a[i] GREATER THAN a[i+1]    
+      CALL byttPlass(a, i, i + 1)
+      SET bytta TO TRUE
+    ENDIF
+  ENDFOR
+ENDWHILE
+```
+
+```pseudo
+Jeg har laget en while-løkke rundt for-løkken.
+While-løkken kjører helt til for-løkken har
+gått én runde uten at noen tall bytter plass.
+```
+
+3. Implementer pseudokoden fra punkt b i ditt programmeringsspråk. Listen skal leses inn automatisk, og den ferdig sorterte listen skal skrives til konsollet eller vises i programmet.
+
+```python
+def bytt_plass(liste, i, j):
+    midlertidig = liste[i]
+    liste[i] = liste[j]
+    liste[j] = midlertidig
+
+bytta = True
+while bytta:
+    bytta = False
+    for i in range(len(a) - 1):
+        if a[i] > a[i + 1]:
+            bytt_plass(a, i, i + 1)
+            bytta  = True
+
+print(a)
+```
+
+## Oppgave 2.15
+
+Lag et TODO-program, som leser og skriver gjøremål fra/til en `.txt`-fil.
+
+```python
+print("-- Huskelista --")
+
+## Les inn fil her 
+
+#huskelisten = [] # denne skal byttes ut med innlesing av fil
+with open("huskeliste.txt", "r" encoding="utf-8") as fil:
+    huskelisten = fil.readlines()
+
+# ---
+
+brukervalg = ""
+while brukervalg != "avslutt":
+    for gjøremål in huskelisten:
+        print(f"- {gjøremål}")
+    print("Skriv nytt gjøremål for å legge til i huskelista, avslutt asvlutter programmer")
+    brukervalg = input("> ")
+    if brukervalg != "avslutt":
+        huskelisten.append(brukervalg)
+
+print("Avslutter")    
+
+## Skriv til fil her
+with open("huskeliste.txt", "w" encoding="utf-8") as fil:
+    fil.writelines(huskelisten)
+# ---
+```
+
+## Oppgave 2.16
+
+Fil: [spotify-weekly-top-songs-global-uke2-2023.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/spotify-weekly-top-songs-global-uke2-2023.json)
+
+1. Hvilken sang har flest uker på Spotifys Weekly Top Songs Global?
+2. Hvor mange streams har Taylor Swift til sammen på sangene hennes som er på topplista?
+3. Hvilken sang gikk opp flest plasseringer fra forrige uke til denne?
+
+```python
+import json
+with open("spotify-weekly-top-songs-global-uke2-2023.json") as fil:
+    sanger = json.load(fil)
+
+# 1. Hvilken sang har flest uker på Spotifys Weekly Top Songs Global?
+flest = sanger[0]
+for sang in sanger:
+    if sang["uker_paa_listen"] > flest["uker_paa_listen"]:
+        flest = sang
+print(flest)
+
+# 2. Hvor mange streams har Taylor Swift til sammen på sangene hennes som er på topplista?
+total = 0
+for sang in sanger:
+    if sang["artist"] == "Taylor Swift":
+        total += sang["antall_streams"]
+print(f"Taylor Swift har totalt {total} antall streams på sangene hennes som ligger på topplista.")
+
+# 3. Hvilken sang gikk opp flest plasseringer fra forrige uke til denne?
+sang_størst_endring = sanger[0]
+størst_endring = sang_størst_endring["plassering"] - sang_størst_endring["forrige_plassering"]
+for sang in sanger:
+    if sang["forrige_plassering"] != -1:
+        endring = sang["plassering"] - sang["forrige_plassering"]
+        if endring > størst_endring:
+            sang_størst_endring = sang
+            størst_endring = endring
+
+print(f"{sang_størst_endring['tittel']} gikk opp flest plasseringer")
+```
+
+## Oppgave 2.17
+
+Fil: [imdb_top250.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/imdb_top250.json)
+
+1. Hvilken film har høyest karakter?
+2. Hva er gjennomsnittskarakteren til alle filmene på listen?
+3. Hva er gjennomsnittskarakteren til de ti første filmene?
+4. Hvilken regissør har regissert flest filmer på listen?
+   - For hver film er regisørrer en liste. Her holder det med første regissør i listen.
+   - Bonus: Alle regisørrene i regissørlistene skal telles med.
+
+```python
+import json
+
+fil = open("imdb_top250.json", encoding="utf-8")
+filmer = json.load(fil)
+fil.close()
+
+# 1. Hvilken film har høyest karakter?
+høyest = filmer[0]
+for film in filmer:
+    if film["karakter"] > høyest["karakter"]:
+        høyest = film
+print(f"Filmen med høyest karakter er {høyest['navn']}")
+
+# 2. Hva er gjennomsnittskarakteren til filmene på listen?
+total_karakter = 0
+for film in filmer:
+    total_karakter += film['karakter']
+snittkarakter = total_karakter / len(filmer)
+print(f"Gjennomsnittskarakteren til filmene er {snittkarakter}")
+
+# 3. Hva er gjennomsnittskarakteren til de ti første filmene?
+filmer_sortert = sorted(filmer, key=lambda film:film['karakter'], reverse=True) # sorterer listen i stigende rekkefølge etter karakter.
+ti_første = filmer_sortert[:10] # lager en ny liste som inneholder de ti første filmene
+total_karakter_ti_første = 0
+for film in ti_første:
+    total_karakter_ti_første += film['karakter']
+snittkarakter_ti_første = total_karakter_ti_første / len(ti_første)
+print(f"Gjennomsnittskarakteren til filmene er {snittkarakter_ti_første}")
+
+# 4. Hvilken regissør har regissert flest filmer på listen?
+regissører_antall = {}
+for film in filmer:
+    for regissør in film['regissører']:
+        if regissør in regissører_antall:
+            regissører_antall[regissør] += 1
+        else:
+            regissører_antall[regissør] = 1
+
+regissører_sortert = sorted(regissører_antall.items(), key=lambda regissør: regissør[1], reverse=True)
+print(f"Regissøren med flest filmer på listen er {regissører_sortert[0][0]} med {regissører_sortert[0][1]} filmer")
+
+# Bonus: Det er faktisk fem regissører med syv filmer på listen.
+for i in range(6):
+    print(f"{i + 1}: {regissører_sortert[i][0]} - {regissører_sortert[i][1]} filmer")
 ```
