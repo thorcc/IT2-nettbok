@@ -1,14 +1,5 @@
 # IT2 - 2023/2024
 
-## Viktige datoer
-
-| Tirsdag | Torsdag           | Beksrivelse                                                             |
-| ------- | ----------------- | ----------------------------------------------------------------------- |
-| 6. feb  | 8. feb (ny dato!) | Prøve - [Databehandling og algoritmer](/databehandling-og-algoritmer) |
-| 5. apr  | 5. apr            | Mappeinnlevering - Spill og/eller applikasjon                           |
-| 23. apr | 25. apr           | Tentamen                                                                |
-| 31. mai | 31. mai           | Skriftlig eksamen                                                       |
-
 ## Denne uken
 
 - Kalenderuke: 4
@@ -28,3 +19,13 @@
 - Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
 - Ukens oppgaver:
   - Gjør [2.6](/databehandling-og-algoritmer/flytdiagram#oppgave-26), [2.12, 2.13](databehandling-og-algoritmer/algoritmer#oppgaver), [2.16 og 2.17](/databehandling-og-algoritmer/filhandtering#oppgave-216)
+
+
+## Viktige datoer
+
+| Tirsdag | Torsdag           | Beksrivelse                                                             |
+| ------- | ----------------- | ----------------------------------------------------------------------- |
+| 6. feb  | 8. feb (ny dato!) | Prøve - [Databehandling og algoritmer](/databehandling-og-algoritmer) |
+| 5. apr  | 5. apr            | Mappeinnlevering - Spill og/eller applikasjon                           |
+| 23. apr | 25. apr           | Tentamen                                                                |
+| 31. mai | 31. mai           | Skriftlig eksamen                                                       |
