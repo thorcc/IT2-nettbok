@@ -1,5 +1,14 @@
 # Ukeplaner
 
+## Uke 19 - Presentere data
+
+- Kalenderuke: 5
+- IT-uke: 19
+- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/lokker-lister-og-ordboker) og Flask (kommer..)
+- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
+- Ukens oppgaver:
+  - kommer
+
 ## Uke 18 - Løkker og større oppgaver
 
 - Kalenderuke: 4

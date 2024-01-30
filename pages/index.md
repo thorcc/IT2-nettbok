@@ -2,6 +2,15 @@
 
 ## Denne uken
 
+- Kalenderuke: 5
+- IT-uke: 19
+- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/lokker-lister-og-ordboker) og Flask (kommer..)
+- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
+- Ukens oppgaver:
+  - kommer
+
+## Forrige uke
+
 - Kalenderuke: 4
 - IT-uke: 18
 - Ukens fagstoff: [Løkker](/databehandling-og-algoritmer/lokker-lister-og-ordboker), [filhåndtering](/databehandling-og-algoritmer/filhandtering) og [større oppgaver](/databehandling-og-algoritmer/storre-oppgaver)
@@ -10,16 +19,6 @@
   - Gjør enten 1 eller 2
     1. [2.9, 2.10 og 2.11](/databehandling-og-algoritmer/lokker-lister-og-ordboker#oppgaver)
     2. [2.18](/databehandling-og-algoritmer/api#oppgaver)
-
-## Forrige uke
-
-- Kalenderuke: 3
-- IT-uke: 17
-- Ukens fagstoff: [Algoritmer](/databehandling-og-algoritmer/algoritmer)
-- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
-- Ukens oppgaver:
-  - Gjør [2.6](/databehandling-og-algoritmer/flytdiagram#oppgave-26), [2.12, 2.13](databehandling-og-algoritmer/algoritmer#oppgaver), [2.16 og 2.17](/databehandling-og-algoritmer/filhandtering#oppgave-216)
-
 
 ## Viktige datoer
 
