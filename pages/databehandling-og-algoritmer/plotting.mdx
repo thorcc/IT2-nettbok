@@ -125,3 +125,27 @@ plt.show()
 | `'y'` | yellow      |
 | `'k'` | black       |
 | `'w'` | white       |
+
+## Eksempel: Ordbok med verdier
+
+`bar`-plott er fine når man vil plotte ordbøker med verdier.
+De lages med `plt.bar(x_verdier, y_verdier)`.
+
+```python
+import matplotlib.pyplot as plt
+
+personer = {
+   "Ravi": 41,
+   "Thor": 33,
+   "Martin": 34
+}
+
+navn = list(personer.keys())
+alder = list(personer.values())
+plt.bar(navn, alder)
+plt.title("Alder på lærere")
+plt.ylabel("år")
+plt.show()
+```
+
+![plott av ordbok med verdier](./bilder/plotting/plott-ordboeker.png)
