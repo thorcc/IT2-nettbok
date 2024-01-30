@@ -286,15 +286,16 @@ I utgangspunktetet kan ikke ordbøker sorteres, så hvis vi for eksempel ønsker
 
 ```python
 personer = {
-   "Ravi": 39
-   "Thor": 33
+   "Ravi": 39,
+   "Thor": 33,
+   "Martin": 34
 }
 
 # lager en liste av tupler som kan sorteres (tupler er nesten som lister, så du kan tenke at vi lager en liste av lister)
-personer_liste = personer.items() # -> [('Ravi', 39), ('Thor', 33)]
+personer_liste = personer.items() # -> [('Ravi', 39), ('Thor', 33), ('Martin', 34)]
 
 personer_sortert = sorted(personer_liste, key=lambda person: person[1]) # sorterer listen på det som ligger på plassering [1], altså verdien
-print(personer_sortert) # -> [('Thor', 33), ('Ravi', 39)]
+print(personer_sortert) # -> [('Thor', 33), ('Martin', 34) ('Ravi', 39)]
 print(personer_sortert[0][0]) # -> 'Thor'
 ```
 
