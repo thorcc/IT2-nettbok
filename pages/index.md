@@ -4,7 +4,7 @@
 
 - Kalenderuke: 5
 - IT-uke: 19
-- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/lokker-lister-og-ordboker) og Flask (kommer..)
+- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/plotting) og Flask (kommer..)
 - Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
 - Ukens oppgaver:
   - [Øveprøve](/databehandling-og-algoritmer/oveprove)
