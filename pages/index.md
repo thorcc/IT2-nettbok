@@ -7,7 +7,7 @@
 - Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/lokker-lister-og-ordboker) og Flask (kommer..)
 - Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
 - Ukens oppgaver:
-  - kommer
+  - [Øveprøve](/databehandling-og-algoritmer/oveprove)
 
 ## Forrige uke
 
