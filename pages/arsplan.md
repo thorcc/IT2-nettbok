@@ -44,7 +44,7 @@
 |        | 20.feb  | 22.feb  | Vinterferie                                                                                                            |
 | 23     | 27.feb  | 29.feb  | Testing                                                                                                                |
 | 24     | 05.mar  | 07.mar  | Modellering                                                                                                            |
-| 25     | 12.mar  | 14.mar  | TBD                                                                                                                    |
+| 25     | 12.mar  | 14.mar  | Brukergrensesnitt                                                                                                      |
 | 26     | 19.mar  | 21.mar  | Skrivedag: Etiske dilemma og konsekvenser                                                                              |
 |        | 26.mar  | 28.mar  | Påske                                                                                                                  |
 | 27     | 02.apr  | 04.apr  | TBD                                                                                                                    |
