@@ -40,16 +40,16 @@
 | 18     | 23.jan  | 25.jan  | [Løkker, lister og ordbøker](/databehandling-og-algoritmer/lokker-lister-og-ordboker)                                  |
 | 19     | 30.jan  | 01.feb  | [Plotting](/databehandling-og-algoritmer/plotting) og [øveprøve](/databehandling-og-algoritmer/oveprove)               |
 | 20     | 06.feb  | 08.feb  | Prøve                                                                                                                  |
-| 22     | 13.feb  | 15.feb  | Data som objekter og Flask                                                                                             |
+| 22     | 13.feb  | 15.feb  | Databehandling og objektorientert programmering                                                                        |
 |        | 20.feb  | 22.feb  | Vinterferie                                                                                                            |
-| 23     | 27.feb  | 29.feb  | Prosjekt                                                                                                               |
-| 24     | 05.mar  | 07.mar  | Prosjekt / Presentasjon                                                                                                |
-| 25     | 12.mar  | 14.mar  | Bonus                                                                                                                  |
+| 23     | 27.feb  | 29.feb  | Testing                                                                                                                |
+| 24     | 05.mar  | 07.mar  | Modellering                                                                                                            |
+| 25     | 12.mar  | 14.mar  | TBD                                                                                                                    |
 | 26     | 19.mar  | 21.mar  | Skrivedag: Etiske dilemma og konsekvenser                                                                              |
 |        | 26.mar  | 28.mar  | Påske                                                                                                                  |
-| 27     | 02.apr  | 04.apr  | Bonus                                                                                                                  |
-| 28     | 09.apr  | 11.apr  | Bonus                                                                                                                  |
-| 29     | 16.apr  | 18.apr  | Bonus                                                                                                                  |
+| 27     | 02.apr  | 04.apr  | TBD                                                                                                                    |
+| 28     | 09.apr  | 11.apr  | TBD                                                                                                                    |
+| 29     | 16.apr  | 18.apr  | TBD                                                                                                                    |
 | 30     | 23.apr  | 25.apr  | Tentamen                                                                                                               |
 | 31     | 30.apr  | 02.mai  | Gjennomgang av tentamen og bonus                                                                                       |
 | 32     | 07.mai  | 09.mai  | Eksamensøving                                                                                                          |
