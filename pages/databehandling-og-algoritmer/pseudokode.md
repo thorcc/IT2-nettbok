@@ -48,22 +48,22 @@ Følgende nøkkelord benyttes for å representere struktur (flytkontroll) i pseu
 | FUNCTION-RETURN-ENDFUNCTION | representerer en kallbar subrutine med eller uten returverdi.                                       |
 | WHILE-ENDWHILE              | er en løkke med en betingelse for å kjøres i begynnelsen av løkken.                                 |
 | REPEAT-UNTIL                | er en løkke som kjøres minst en gang, med en betingelse for gjentakelse til slutt.                  |
-| FOR                         | er en løkke som kjøres et visst antall ganger eller over elementer i en variabel eller tilsvarende. |
+| FOR-ENDFOR                  | er en løkke som kjøres et visst antall ganger eller over elementer i en variabel eller tilsvarende. |
 | IF-THEN-ELSE-ENDIF          | er en valgsetning som endrer flyten i algoritmen.                                                   |
 | CASE-OF-OTHERS-ENDCASE      | er en flerveis forgrening av flyten basert på verdien av et uttrykk.                                |
 | BEGIN-EXCEPTION-WHEN-END    | er håndtering av unntak i kjøretid.                                                                 |
 
 Følgende nøkkelord benyttes for å representere operasjoner i pseudokode på eksamen
 
-| nøkkelord      | beskrivelse                                                                                                                   |
-| -------------- | ----------------------------------------------------------------------------------------------------------------------------- |
-| SET TO         | er deklarering eller initialisering av en variabel.                                                                           |
-| CALL-RETURNING | er kall til en rutine, funksjon eller metode hvor RETURNING er returverdi dersom rutinen, funksjonen eller metoden gir dette. |
-| READ           | er lesing eller mottak av input.                                                                                              |
-| DISPLAY        | er visning av output til bruker.                                                                                              |
-| COMPUTE        | er beregning eller avgjøring av resultat.                                                                                     |
-| INCREMENT      | er å legge til 1 til en tallvariabel.                                                                                         |
-| DECREMENT      | er å trekke fra 1 fra en tallvariabel.                                                                                        |
+| nøkkelord      | beskrivelse                                                                                                           |
+| -------------- | --------------------------------------------------------------------------------------------------------------------- |
+| SET TO         | er deklarering eller initialisering av en variabel.                                                                   |
+| CALL-RETURNING | er kall til en funksjon eller metode hvor RETURNING er returverdi dersom rutinen, funksjonen eller metoden gir dette. |
+| READ           | er lesing eller mottak av input.                                                                                      |
+| DISPLAY        | er visning av output til bruker.                                                                                      |
+| COMPUTE        | er beregning eller avgjøring av resultat.                                                                             |
+| INCREMENT      | er å legge til 1 til en tallvariabel.                                                                                 |
+| DECREMENT      | er å trekke fra 1 fra en tallvariabel.                                                                                |
 
 Følgende nøkkelord benyttes for å representere logiske operatorer i pseudokode på eksamen
 | nøkkelord | beskrivelse |
@@ -129,7 +129,7 @@ ENDFOR
 SET i TO 1
 WHILE i < 5
   PRINT i
-  INCREMENT i 
+  INCREMENT i
 ENDWHILE
 
 3.
