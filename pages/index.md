@@ -6,7 +6,7 @@
 - IT-uke: 21
 - Ukens fagstoff: [Stortinget-fantasy](/apputvikling/stortinget-fantasy), [brukergrensesnitt](/apputvikling/brukergrensesnitt) og [data som objekter](/apputvikling/data-som-objekter)
 - Tema: Apputvikling
-- Ukens oppgaver:
+- Ukens oppgaver: [3.1 - 3.7](/apputvikling/oppgaver)
 
 ## Forrige uke - Prøve
 

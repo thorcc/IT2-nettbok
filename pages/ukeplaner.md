@@ -4,10 +4,9 @@
 
 - Kalenderuke: 7
 - IT-uke: 21
-- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/plotting) og Flask (kommer..)
-- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
-- Ukens oppgaver:
-  - [Øveprøve](/databehandling-og-algoritmer/oveprove)
+- Ukens fagstoff: [Stortinget-fantasy](/apputvikling/stortinget-fantasy), [brukergrensesnitt](/apputvikling/brukergrensesnitt) og [data som objekter](/apputvikling/data-som-objekter)
+- Tema: Apputvikling
+- Ukens oppgaver: [3.1 - 3.7](/apputvikling/oppgaver)
 
 ## Uke 20 - Prøve i databehandling og algoritmer
 
