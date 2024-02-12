@@ -1,13 +1,28 @@
 # Ukeplaner
 
+## Uke 21 - Data som objekter
+
+- Kalenderuke: 7
+- IT-uke: 21
+- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/plotting) og Flask (kommer..)
+- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
+- Ukens oppgaver:
+  - [Øveprøve](/databehandling-og-algoritmer/oveprove)
+
+## Uke 20 - Prøve i databehandling og algoritmer
+
+- Kalenderuke: 6
+- IT-uke: 20
+- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
+  
 ## Uke 19 - Presentere data
 
 - Kalenderuke: 5
 - IT-uke: 19
-- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/lokker-lister-og-ordboker) og Flask (kommer..)
+- Ukens fagstoff: [Plotting](/databehandling-og-algoritmer/plotting) og Flask (kommer..)
 - Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
 - Ukens oppgaver:
-  - kommer
+  - [Øveprøve](/databehandling-og-algoritmer/oveprove)
 
 ## Uke 18 - Løkker og større oppgaver
 
