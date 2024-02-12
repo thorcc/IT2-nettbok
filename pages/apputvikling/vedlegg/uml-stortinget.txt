@@ -1,0 +1,28 @@
+@startuml
+Politiker *-- Fantasiparti
+
+class Politiker {
+    fornavn: str
+    ettnavn: str
+    kjønn: str
+    fylke: str
+    parti: str
+    verdi: int
+    komiteer: str[ ]
+    ukepoeng: int[ ]
+
+    gi_ukepoeng(int)
+}
+
+class Fantasiparti {
+    navn: str
+    eier: str
+    poeng: int
+    saldo: int
+    partileder: Politiker
+    politikere: Politiker[ ]
+
+    kjøp_politiker(Politiker)
+    selg_politiker(Politiker)
+}
+@enduml
