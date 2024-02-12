@@ -20,6 +20,12 @@ const config: DocsThemeConfig = {
     return {
       titleTemplate: '%s - IT2'
     }
+  },
+  search: {
+    placeholder: "Søk"
+  },
+  sidebar: {
+    defaultMenuCollapseLevel: 1
   }
 }
 
