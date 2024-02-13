@@ -12,13 +12,13 @@
 
 - Kalenderuke: 6
 - IT-uke: 20
-- Tema: [Databehandling og algoritmer](/databehandling-og-algoritmer)
+- Tema: Databehandling og algoritmer
 
 ## Viktige datoer
 
-| Tirsdag | Torsdag | Beksrivelse                                                           |
-| ------- | ------- | --------------------------------------------------------------------- |
-| 6. feb  | 8. feb  | Prøve - [Databehandling og algoritmer](/databehandling-og-algoritmer) |
-| 5. apr  | 5. apr  | Mappeinnlevering - Spill og/eller applikasjon                         |
-| 23. apr | 25. apr | Tentamen                                                              |
-| 31. mai | 31. mai | Skriftlig eksamen                                                     |
+| Tirsdag | Torsdag | Beksrivelse                                   |
+| ------- | ------- | --------------------------------------------- |
+| 6. feb  | 8. feb  | Prøve - Databehandling og algoritmer          |
+| 5. apr  | 5. apr  | Mappeinnlevering - Spill og/eller applikasjon |
+| 23. apr | 25. apr | Tentamen                                      |
+| 31. mai | 31. mai | Skriftlig eksamen                             |
