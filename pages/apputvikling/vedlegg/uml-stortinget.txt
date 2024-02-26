@@ -3,7 +3,7 @@ Politiker *-- Fantasiparti
 
 class Politiker {
     fornavn: str
-    ettnavn: str
+    etternavn: str
     kjønn: str
     fylke: str
     parti: str
