@@ -1,6 +1,14 @@
 # IT2 - 2023/2024
 
-## Denne uken - Data som objekter
+## Denne uken - Assosiasjoner i objektorientert programmering
+
+- Kalenderuke: 9
+- IT-uke: 22
+- Ukens fagstoff: [Assosiasjoner](/apputvikling/assosiasjoner)
+- Tema: Apputvikling
+- Ukens oppgaver: [3.8 - 3.12](/apputvikling/oppgaver)
+
+## Forrige uke - Data som objekter
 
 - Kalenderuke: 7
 - IT-uke: 21

@@ -1,5 +1,13 @@
 # Ukeplaner
 
+## Uke 22 - Assosiasjoner i objektorientert programmering
+
+- Kalenderuke: 9
+- IT-uke: 22
+- Ukens fagstoff: [Assosiasjoner](/apputvikling/assosiasjoner)
+- Tema: Apputvikling
+- Ukens oppgaver: [3.8 - 3.12](/apputvikling/oppgaver)
+
 ## Uke 21 - Data som objekter
 
 - Kalenderuke: 7
