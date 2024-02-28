@@ -4,7 +4,7 @@
 
 - Kalenderuke: 9
 - IT-uke: 22
-- Ukens fagstoff: [Assosiasjoner](/apputvikling/assosiasjoner)
+- Ukens fagstoff: [Assosiasjoner](/apputvikling/assosiasjon)
 - Tema: Apputvikling
 - Ukens oppgaver: [3.8 - 3.12](/apputvikling/oppgaver)
 
