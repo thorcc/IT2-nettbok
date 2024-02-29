@@ -1,7 +1,8 @@
 @startuml
-Politiker *-- Fantasiparti
+Politiker --o Fantasiparti
 
 class Politiker {
+    id: str
     fornavn: str
     etternavn: str
     kjønn: str
@@ -10,7 +11,8 @@ class Politiker {
     verdi: int
     komiteer: str[ ]
     ukepoeng: int[ ]
-
+    tittel: str
+    
     gi_ukepoeng(int)
 }
 
