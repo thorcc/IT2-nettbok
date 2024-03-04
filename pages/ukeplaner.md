@@ -1,5 +1,13 @@
 # Ukeplaner
 
+## Uke 23 - Arbeid med mappeinnlevering
+
+- Kalenderuke: 10
+- IT-uke: 23
+- Ukens fagstoff: [Mappe](/mappeinnlevering/mappe) og [tips til vårprosjekt](/mappeinnlevering/varprosjekt)
+- Tema: Mappeinnlevering
+- Ukens oppgaver: Start på vårprosjekt
+
 ## Uke 22 - Assosiasjoner i objektorientert programmering
 
 - Kalenderuke: 9

@@ -1,20 +1,20 @@
 # IT2 - 2023/2024
 
-## Denne uken - Assosiasjoner i objektorientert programmering
+## Denne uken - Arbeid med mappeinnlevering
+
+- Kalenderuke: 10
+- IT-uke: 23
+- Ukens fagstoff: [Mappe](/mappeinnlevering/mappe) og [tips til vårprosjekt](/mappeinnlevering/varprosjekt)
+- Tema: Mappeinnlevering
+- Ukens oppgaver: Start på vårprosjekt
+
+## Forrige uke - Assosiasjoner i objektorientert programmering
 
 - Kalenderuke: 9
 - IT-uke: 22
 - Ukens fagstoff: [Assosiasjoner](/apputvikling/assosiasjon)
 - Tema: Apputvikling
 - Ukens oppgaver: [3.8 - 3.12](/apputvikling/oppgaver)
-
-## Forrige uke - Data som objekter
-
-- Kalenderuke: 7
-- IT-uke: 21
-- Ukens fagstoff: [Stortinget-fantasy](/apputvikling/stortinget-fantasy), [brukergrensesnitt](/apputvikling/brukergrensesnitt) og [data som objekter](/apputvikling/data-som-objekter)
-- Tema: Apputvikling
-- Ukens oppgaver: [3.1 - 3.7](/apputvikling/oppgaver)
 
 ## Forrige uke - Prøve
 
@@ -27,6 +27,6 @@
 | Tirsdag | Torsdag | Beksrivelse                                   |
 | ------- | ------- | --------------------------------------------- |
 | 6. feb  | 8. feb  | Prøve - Databehandling og algoritmer          |
-| 5. apr  | 5. apr  | Mappeinnlevering - Spill og/eller applikasjon |
 | 23. apr | 25. apr | Tentamen                                      |
+| 10. mai | 10. mai | Mappeinnlevering - Spill og/eller applikasjon |
 | 31. mai | 31. mai | Skriftlig eksamen                             |
