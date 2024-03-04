@@ -16,12 +16,6 @@
 - Tema: Apputvikling
 - Ukens oppgaver: [3.8 - 3.12](/apputvikling/oppgaver)
 
-## Forrige uke - Prøve
-
-- Kalenderuke: 6
-- IT-uke: 20
-- Tema: Databehandling og algoritmer
-
 ## Viktige datoer
 
 | Tirsdag | Torsdag | Beksrivelse                                   |
