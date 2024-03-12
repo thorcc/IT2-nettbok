@@ -44,18 +44,35 @@
 |        | 20.feb  | 22.feb  | Vinterferie                                                                                                              |
 | 22     | 27.feb  | 29.feb  | [Assosiasjon](/apputvikling/assosiasjon)                                                                                 |
 | 23     | 05.mar  | 07.mar  | [Arbeid med mappe](/mappeinnlevering/mappe) og [vårprosjekt](/mappeinnlevering/varprosjekt)                              |
-| 24     | 12.mar  | 14.mar  | [Testing](/apputvikling/testing) og [mappearbeid](/mappeinnlevering/mappe)                                               |
-| 25     | 19.mar  | 21.mar  | Skrivedag: Etiske dilemma og konsekvenser                                                                                |
+| 24     | 12.mar  | 14.mar  | [Testing](/apputvikling/testing) og prosjektarbeid: skisse og UML                                                        |
+| 25     | 19.mar  | 21.mar  | Etiske dilemma og konsekvenser og prosjektarbeid: klasser                                                                |
 |        | 26.mar  | 28.mar  | Påske                                                                                                                    |
-| 26     | 02.apr  | 04.apr  | Dokumentasjon og [mappearbeid](/mappeinnlevering/mappe)                                                                  |
-| 27     | 09.apr  | 11.apr  | Tilbakemeldinger fra brukere og [mappearbeid](/mappeinnlevering/mappe)                                                   |
-| 28     | 16.apr  | 18.apr  | [Mappearbeid](/mappeinnlevering/mappe)                                                                                   |
+| 26     | 02.apr  | 04.apr  | Dokumentasjon og prosjektarbeid: grensesnitt - pygame eller terminal                                                     |
+| 27     | 09.apr  | 11.apr  | Prosjektarbeid: tilbakemeldinger fra brukere                                                                             |
+| 28     | 16.apr  | 18.apr  | Større oppgaver - tentamensøving                                                                                         |
 | 29     | 23.apr  | 25.apr  | Tentamen                                                                                                                 |
 | 30     | 30.apr  | 02.mai  | Gjennomgang av tentamen og bonus                                                                                         |
-| 31     | 07.mai  | 09.mai  | Eksamensøving                                                                                                            |
-| 32     | 14.mai  | 16.mai  | Eksamensøving                                                                                                            |
-| 33     | 21.mai  | 23.mai  | Eksamensøving                                                                                                            |
+| 31     | 07.mai  | 09.mai  | Eksamensøving/mappearbeid                                                                                                |
+| 32     | 14.mai  | 16.mai  | Eksamensøving/mappearbeid                                                                                                |
+| 33     | 21.mai  | 23.mai  | Eksamensøving/mappearbeid                                                                                                |
 |        | 28.mai  | 30.mai  | Skriftlig eksamen fredag 31. mai                                                                                         |
 |        | 04.jun  | 06.jun  | Øving til muntlig                                                                                                        |
 |        | 11.jun  | 13.jun  | Muntlig eksamen                                                                                                          |
 |        | 18.jun  | 20.jun  | Siste skoleuke                                                                                                           |
+
+| Dato   |                                    |
+| ------ | ---------------------------------- |
+| 12.3   | Skisse og UML                      |
+| 19.3   | Kortsvar og klasser                |
+| 26.3   | Påskeferie                         |
+| 2.4    | Pygame?                            |
+| 9.4    |                                    |
+| 16.4   |                                    |
+| 23.4   | Tentamen                           |
+| 30.4   |                                    |
+| 7.5    |                                    |
+| 14.5   |                                    |
+| _15.5_ | Eksamenstrekk                      |
+| 21.5   | Eksamenperiode - (eksamen sidemål) |
+| 28.5   | Eksamensperiode                    |
+| _31.5_ | Skriftlig eksamen - IT2            |
