@@ -1,5 +1,13 @@
 # Ukeplaner
 
+## Uke 24 - Testing og håndtering av feil
+
+- Kalenderuke: 11
+- IT-uke: 24
+- Ukens fagstoff: [Testing](/apputvikling/testing)
+- Tema: Testing og håndtering av feil
+- Ukens oppgaver: [3.13 - 3.16](/apputvikling/testing#oppgaver)
+
 ## Uke 23 - Arbeid med mappeinnlevering
 
 - Kalenderuke: 10

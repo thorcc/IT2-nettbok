@@ -2,19 +2,19 @@
 
 ## Denne uken - Arbeid med mappeinnlevering
 
+- Kalenderuke: 11
+- IT-uke: 24
+- Ukens fagstoff: [Testing](/apputvikling/testing)
+- Tema: Testing og håndtering av feil
+- Ukens oppgaver: [3.13 - 3.16](/apputvikling/testing#oppgaver)
+
+## Forrige uke - Arbeid med mappeinnlevering
+
 - Kalenderuke: 10
 - IT-uke: 23
 - Ukens fagstoff: [Mappe](/mappeinnlevering/mappe) og [tips til vårprosjekt](/mappeinnlevering/varprosjekt)
 - Tema: Mappeinnlevering
 - Ukens oppgaver: Start på vårprosjekt
-
-## Forrige uke - Assosiasjoner i objektorientert programmering
-
-- Kalenderuke: 9
-- IT-uke: 22
-- Ukens fagstoff: [Assosiasjoner](/apputvikling/assosiasjon)
-- Tema: Apputvikling
-- Ukens oppgaver: [3.8 - 3.12](/apputvikling/oppgaver)
 
 ## Viktige datoer
 
