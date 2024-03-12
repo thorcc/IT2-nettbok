@@ -1,18 +1,123 @@
-# Testing og feilsøking
+# Håndtering av feil og testing
 
-TODO: Skriv om testing og feilsøking
+## Håndtering av feil
 
-## Feilsøking
+Vi kan håndtere eventuelle feil i koden med nøkkelordene `try` og `except`.
+Maskinen vil forsøke å kjøre koden under `try` og hvis noe feiler, kjøres koden under `except`.
+Hvis brukeren skriver inn noe annet enn et tall på inputen i linje 2 i koden under, vil `int()` feile, og koden under `except` vil kjøre.
 
-- Lese feilmeldinger
-- Debug-mode i VS-code
+```python showLineNumbers
+try:
+    tall = int(input("Skriv et tall: "))
+except:
+    print("FEIL! Input er ikke et tall. 'tall' får verdien 10")
+    tall = 10
+
+print(tall)
+```
+
+### Eksempel: riktig input med try, except
+
+Med litt kreativ bruk av `while`, `break`, `try` og `except` kan vi lage en kode der vi sørger for at brukeren skriver inn riktig input.
+
+```python showLineNumbers
+while True:
+    try:
+        alder = int(input("Hvor gammel er du? "))
+        break
+    except:
+        print("Ugyldig input. Alder må være et tall.")
+år = 2024
+fødselsår = år - alder
+print(f"Du er født i {fødselsår}")
+```
 
 ## Testing
 
-- Testing med assert
-    - [W3Schools - assert](https://www.w3schools.com/python/ref_keyword_assert.asp)
+### Testing med assert
 
-- Testklasser og testmetoder
-    - [docs.python.org - unittest](https://docs.python.org/3/library/unittest.html)
-    - [A Beginner's Guide to Unit Tests in Python](https://www.dataquest.io/blog/unit-tests-python/)
-    - [A Gentle Introduction to Unit Testing in Python](https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/)
+Nøkkelordet `assert` kan brukes for å forsikre oss om at koden gjør det vi vil at den skal gjøre.
+`assert` inneholder en test som gir en feilmelding hvis den er `False`, og hvis testen er `True` fortsetter koden.
+
+
+### Enkel testdrevet utvikling med assert
+
+I _testdrevet utvikling_ lager man først tester og deretter skriver man koden.
+Meningen med testdrevet utvikling er at man ikke skal skrive unødvendig kode, og alle kode man skriver må skrives for å bestå en test.
+
+
+La oss ta et eksempel med en enkel funksjon som skal finne ut om et tall er partall eller ikke.
+
+Vi starter med å skrive tester.
+Her gjelder det å få med alle tilfeller, eller _test cases_.
+
+```python
+assert partall(2) == True
+assert partall(1) == False
+assert partall(-2) == True
+assert partall(-1) == False
+```
+
+Nå kan vi skrive kode som oppfyller testene.
+```python
+def partall(tall: int):
+    return tall % 2 == 0
+
+assert partall(2) == True
+assert partall(1) == False
+assert partall(-2) == True
+assert partall(-1) == False
+```
+
+Mer om `assert`: [W3Schools - assert](https://www.w3schools.com/python/ref_keyword_assert.asp)
+
+### Testklasser
+
+Python har et innebygd bibliotek, `unittest` som kan brukes for å lage egne testklasser.
+Her er noen fine ressurser for å lese om `unittest`-biblioteket:
+
+- [A Beginner's Guide to Unit Tests in Python](https://www.dataquest.io/blog/unit-tests-python/)
+- [A Gentle Introduction to Unit Testing in Python](https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/)
+- [docs.python.org - unittest](https://docs.python.org/3/library/unittest.html)
+
+## Oppgaver
+
+### 3.13
+
+Kopier koden under inn i en .py- eller en .ipynb-fil, og legg til en kommentar på hver linje som forklarer hva linjene gjør.
+
+```python showLineNumbers
+while True:                                            # Dine kommentarer her
+    try:                                               # 
+        alder = int(input("Hvor gammel er du? "))      #
+        break                                          #
+    except:                                            #
+        print("Ugyldig input. Alder må være et tall.") #
+år = 2024                                              #
+fødselsår = år - alder                                 #
+print(f"Du er født i {fødselsår}")                     #
+```
+
+## 3.14
+
+Lag et program som genrerer mailadresser fra fornavn og etternavn.
+Mailen skal bestå av hele det første fornavnet og første bokstav i etternavnet etterfulgt av `@afk.no`.
+For eksempel skal `Thor Christian Coward` bli `thorc@afk.no`.
+Som input til programmet må brukeren skrive inn minst to navn (fornavn og etternavn), hvis ikke skal brukeren få en feilmelding og få lov til å skrive input på nytt.
+
+## 3.15
+
+I denne oppgaven skal du lage en funksjon som returnerer `True` om et årstall er skuddår og `False` hvis årstallet ikke er et skuddår.
+
+Skuddår er år som er delelige på 4 og som ikke er delelige med 100, med unntak for år som er delelige på 400.
+
+1. Bruk `assert` og lag tester som sjekker alle tilfellene av skuddår
+2. Lag funksjonen, slik at alle testene er OK
+
+```python
+def skuddår(årstall: int):
+    # 2. lag funksjonen
+    return False
+
+# 1. Lag tester her
+```
