@@ -1,6 +1,6 @@
 # IT2 - 2023/2024
 
-## Denne uken - Arbeid med mappeinnlevering
+## Denne uken - Testing og håndtering av feil
 
 - Kalenderuke: 11
 - IT-uke: 24
