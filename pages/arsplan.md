@@ -59,20 +59,3 @@
 |        | 04.jun  | 06.jun  | Øving til muntlig                                                                                                        |
 |        | 11.jun  | 13.jun  | Muntlig eksamen                                                                                                          |
 |        | 18.jun  | 20.jun  | Siste skoleuke                                                                                                           |
-
-| Dato   |                                    |
-| ------ | ---------------------------------- |
-| 12.3   | Skisse og UML                      |
-| 19.3   | Kortsvar og klasser                |
-| 26.3   | Påskeferie                         |
-| 2.4    | Pygame?                            |
-| 9.4    |                                    |
-| 16.4   |                                    |
-| 23.4   | Tentamen                           |
-| 30.4   |                                    |
-| 7.5    |                                    |
-| 14.5   |                                    |
-| _15.5_ | Eksamenstrekk                      |
-| 21.5   | Eksamenperiode - (eksamen sidemål) |
-| 28.5   | Eksamensperiode                    |
-| _31.5_ | Skriftlig eksamen - IT2            |
