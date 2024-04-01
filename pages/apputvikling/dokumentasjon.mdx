@@ -1,0 +1,108 @@
+# Dokumentasjon
+
+- Fagtekst: [https://realpython.com/documenting-python-code/](https://realpython.com/documenting-python-code/)
+
+## Oppgaver
+
+### 3.17 - Kommentarer
+
+1. Kopier koden under inn i en .py-fil i VS Code
+2. Hva gjør koden? Skriv svaret som en kommentar øverst i filen.
+3. Legg på kommentarer slik at koden blir forståelig for andre.
+4. Endre variabelnavn i koden slik at den blir lettere å forstå uten kommentarer.
+5. Se over den endrede koden, er den lett å forstå? Hvis ikke, legg på nødvendige kommentarer.
+
+```python
+# 2. Hva gjør koden?
+# TODO svar på oppgave 2 her
+
+# 3. Legg på kommentarer slik at koden blir forståelig for andre
+a = float("Grunnlinje (cm): ")
+b = float("Høyde (cm): ")
+
+c = a*b/2
+print(f"Arealet er {c} cm^2")
+
+## ------
+# 4. Fjern alle kommentarer og endre koden slik at den blir enklere å forstå
+# 5. Se over koden og legg på eventuelle nødvendige kommentarer
+
+# TODO Lim inn koden på nytt her
+```
+
+### 3.18 - Kommentarer
+
+1. Kopier koden under inn i en .py-fil i VS Code
+2. Hva gjør koden? Skriv svaret som en kommentar øverst i filen.
+3. Legg på kommentarer slik at koden blir forståelig for andre.
+4. Endre variabelnavn i koden slik at den blir lettere å forstå uten kommentarer.
+5. Se over den endrede koden, er den lett å forstå? Hvis ikke, legg på nødvendige kommentarer.
+
+```python showLineNumbers copy
+# 2. Hva gjør koden?
+# TODO svar på oppgave 2 her
+
+# 3. Legg på kommentarer slik at koden blir forståelig for andre
+f1 = [
+    {"navn": "Max Verstappen", "nasjonalitet": "nederlandsk", "team": "Red Bull Racing", "bilnummer": 1},
+    {"navn": "Sergio Perez", "nasjonalitet": "meksikansk", "team": "Red Bull Racing", "bilnummer": 11},
+    {"navn": "Lewis Hamilton", "nasjonalitet": "britisk", "team": "Mercedes", "bilnummer": 44},
+    {"navn": "George Russell", "nasjonalitet": "britisk", "team": "Mercedes", "bilnummer": 63},
+    {"navn": "Charles Leclerc", "nasjonalitet": "monegaskisk", "team": "Ferrari", "bilnummer": 16},
+    {"navn": "Kevin Magnussen", "nasjonalitet": "dansk", "team": "Haas F1 Team", "bilnummer": 20},
+    {"navn": "Nico Hulkenberg", "nasjonalitet": "tysk", "team": "Haas F1 Team", "bilnummer": 27}
+]
+
+antall = {}
+
+for s in f1:         
+  if s['nasjonalitet'] not in antall:
+    antall[s['nasjonalitet']] = 1
+  else:
+    antall[s['nasjonalitet']] += 1
+ 
+print(antall["britisk"])
+print(antall["spansk"])
+
+## ------
+# 4. Fjern alle kommentarer og endre koden slik at den blir enklere å forstå
+# 5. Se over koden, og legg på eventuelle kommentarer
+
+# TODO Lim inn koden på nytt under her, og endre koden:
+
+```
+
+### 3.19 - Docstrings
+
+1. Kopier koden i en .py-fil i VS-Code
+2. Dokumenter koden med docstrings
+
+```python
+class Hund:
+    def __init__(self, navn, alder, rase):
+        self.navn = navn
+        self.alder = alder
+        self.rase = rase
+
+    def bjeff(self):
+        return f"{self.navn} sier: Woof!"
+
+    def viftPaaHalen(self):
+        return f"{self.navn} vifter på halen!"
+
+    def info(self):
+        return f"{self.navn} er en {self.alder} år gammel {self.rase}."
+
+
+# Test av klassen
+if __name__ == "__main__":
+    min_hund = Hund("Rex", 5, "Schäfer")
+    print(min_hund.bjeff())
+    print(min_hund.viftPaaHalen())
+    print(min_hund.info())
+
+```
+
+### 3.20 - Docstrings
+
+Dokumenter en klasse i et av dine egne prosjekter med docstrings.

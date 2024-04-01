@@ -1,11 +1,27 @@
 # Ukeplaner
 
+## Uke 26 - Dokumentasjon og kommentarer
+
+- Kalenderuke: 14
+- IT-uke: 26
+- Ukens fagstoff: [Realpython.com - documenting python code](https://realpython.com/documenting-python-code/)
+- Tema: Apputvikling
+- Ukens oppgaver: [3.17 - 3.20](/apputvikling/dokumentasjon)
+
+## Uke 25 - Etiske dilemma og konsekvenser
+
+- Kalenderuke: 12
+- IT-uke: 25
+- Ukens fagstoff: Film, podkast og artikkel på teams
+- Tema: Etiske dilemma og konsekvenser
+- Ukens oppgaver: Oppgave på teams
+
 ## Uke 24 - Testing og håndtering av feil
 
 - Kalenderuke: 11
 - IT-uke: 24
 - Ukens fagstoff: [Testing](/apputvikling/testing)
-- Tema: Testing og håndtering av feil
+- Tema: Apputvikling
 - Ukens oppgaver: [3.13 - 3.16](/apputvikling/testing#oppgaver)
 
 ## Uke 23 - Arbeid med mappeinnlevering

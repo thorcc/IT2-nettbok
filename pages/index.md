@@ -1,20 +1,20 @@
 # IT2 - 2023/2024
 
-## Denne uken - Testing og håndtering av feil
+## Denne uken - Dokumentasjon og kommentarer
 
-- Kalenderuke: 11
-- IT-uke: 24
-- Ukens fagstoff: [Testing](/apputvikling/testing)
-- Tema: Testing og håndtering av feil
-- Ukens oppgaver: [3.13 - 3.16](/apputvikling/testing#oppgaver)
+- Kalenderuke: 14
+- IT-uke: 26
+- Ukens fagstoff: [Realpython.com - documenting python code](https://realpython.com/documenting-python-code/)
+- Tema: Apputvikling
+- Ukens oppgaver: [3.17 - 3.20](/apputvikling/dokumentasjon)
 
-## Forrige uke - Arbeid med mappeinnlevering
+## Forrige uke - Etiske dilemma og konsekvenser
 
-- Kalenderuke: 10
-- IT-uke: 23
-- Ukens fagstoff: [Mappe](/mappeinnlevering/mappe) og [tips til vårprosjekt](/mappeinnlevering/varprosjekt)
-- Tema: Mappeinnlevering
-- Ukens oppgaver: Start på vårprosjekt
+- Kalenderuke: 12
+- IT-uke: 25
+- Ukens fagstoff: Film, podkast og artikkel på teams
+- Tema: Etiske dilemma og konsekvenser
+- Ukens oppgaver: Oppgave på teams
 
 ## Viktige datoer
 
