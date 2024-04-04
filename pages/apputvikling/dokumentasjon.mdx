@@ -6,43 +6,27 @@
 
 ### 3.17 - Kommentarer
 
-1. Kopier koden under inn i en .py-fil i VS Code
-2. Hva gjør koden? Skriv svaret som en kommentar øverst i filen.
-3. Legg på kommentarer slik at koden blir forståelig for andre.
-4. Endre variabelnavn i koden slik at den blir lettere å forstå uten kommentarer.
-5. Se over den endrede koden, er den lett å forstå? Hvis ikke, legg på nødvendige kommentarer.
+1. Lag en fil 3.17.py
+2. Hva gjør koden under? Skriv svaret som en kommentar øverst i filen.
+3. Kopier koden inn i filen, og endre variabelnavn i koden slik at den blir lettere å forstå uten kommentarer.
+4. Se over den endrede koden, er den lett å forstå? Hvis ikke, legg på nødvendige kommentarer.
 
-```python
-# 2. Hva gjør koden?
-# TODO svar på oppgave 2 her
-
-# 3. Legg på kommentarer slik at koden blir forståelig for andre
-a = float("Grunnlinje (cm): ")
-b = float("Høyde (cm): ")
+```python copy showLineNumbers
+a = float(input("Grunnlinje (cm): "))
+b = float(input("Høyde (cm): "))
 
 c = a*b/2
 print(f"Arealet er {c} cm^2")
-
-## ------
-# 4. Fjern alle kommentarer og endre koden slik at den blir enklere å forstå
-# 5. Se over koden og legg på eventuelle nødvendige kommentarer
-
-# TODO Lim inn koden på nytt her
 ```
 
 ### 3.18 - Kommentarer
 
-1. Kopier koden under inn i en .py-fil i VS Code
-2. Hva gjør koden? Skriv svaret som en kommentar øverst i filen.
-3. Legg på kommentarer slik at koden blir forståelig for andre.
-4. Endre variabelnavn i koden slik at den blir lettere å forstå uten kommentarer.
-5. Se over den endrede koden, er den lett å forstå? Hvis ikke, legg på nødvendige kommentarer.
+1. Lag en fil 3.17.py
+2. Hva gjør koden under? Skriv svaret som en kommentar øverst i filen.
+3. Kopier koden inn i filen, og endre variabelnavn i koden slik at den blir lettere å forstå uten kommentarer.
+4. Se over den endrede koden, er den lett å forstå? Hvis ikke, legg på nødvendige kommentarer.
 
 ```python showLineNumbers copy
-# 2. Hva gjør koden?
-# TODO svar på oppgave 2 her
-
-# 3. Legg på kommentarer slik at koden blir forståelig for andre
 f1 = [
     {"navn": "Max Verstappen", "nasjonalitet": "nederlandsk", "team": "Red Bull Racing", "bilnummer": 1},
     {"navn": "Sergio Perez", "nasjonalitet": "meksikansk", "team": "Red Bull Racing", "bilnummer": 11},
@@ -64,18 +48,13 @@ for s in f1:
 print(antall["britisk"])
 print(antall["spansk"])
 
-## ------
-# 4. Fjern alle kommentarer og endre koden slik at den blir enklere å forstå
-# 5. Se over koden, og legg på eventuelle kommentarer
-
-# TODO Lim inn koden på nytt under her, og endre koden:
-
 ```
 
 ### 3.19 - Docstrings
 
 1. Kopier koden i en .py-fil i VS-Code
-2. Dokumenter koden med docstrings
+2. Legg på *type hints* i init-metoden
+3. Dokumenter klassen med docstrings
 
 ```python
 class Hund:
@@ -87,18 +66,17 @@ class Hund:
     def bjeff(self):
         return f"{self.navn} sier: Woof!"
 
-    def viftPaaHalen(self):
+    def vift_på_halen(self):
         return f"{self.navn} vifter på halen!"
 
     def info(self):
         return f"{self.navn} er en {self.alder} år gammel {self.rase}."
 
-
 # Test av klassen
 if __name__ == "__main__":
     min_hund = Hund("Rex", 5, "Schäfer")
     print(min_hund.bjeff())
-    print(min_hund.viftPaaHalen())
+    print(min_hund.vift_på_halen())
     print(min_hund.info())
 
 ```
