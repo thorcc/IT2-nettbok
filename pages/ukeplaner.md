@@ -1,5 +1,21 @@
 # Ukeplaner
 
+## Uke 28 - Større oppgaver
+
+- Kalenderuke: 16
+- IT-uke: 28
+- Ukens fagstoff: -
+- Tema: Større oppgaver
+- Ukens oppgaver: [2.20 - 2.21](/databehandling-og-algoritmer/storre-oppgaver)
+
+## Uke 27 - Prosjektarbeid og fagsamtaler
+
+- Kalenderuke: 15
+- IT-uke: 27
+- Ukens fagstoff: -
+- Tema: Prosjektarbeid
+- Ukens oppgaver: Prosjektarbeid
+
 ## Uke 26 - Dokumentasjon og kommentarer
 
 - Kalenderuke: 14

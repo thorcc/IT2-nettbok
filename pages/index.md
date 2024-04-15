@@ -1,20 +1,20 @@
 # IT2 - 2023/2024
 
-## Denne uken - Dokumentasjon og kommentarer
+## Denne uken - Større oppgaver
 
-- Kalenderuke: 14
-- IT-uke: 26
-- Ukens fagstoff: [Realpython.com - documenting python code](https://realpython.com/documenting-python-code/)
-- Tema: Apputvikling
-- Ukens oppgaver: [3.17 - 3.20](/apputvikling/dokumentasjon)
+- Kalenderuke: 16
+- IT-uke: 28
+- Ukens fagstoff: -
+- Tema: Større oppgaver
+- Ukens oppgaver: [2.20 - 2.21](/databehandling-og-algoritmer/storre-oppgaver)
 
-## Forrige uke - Etiske dilemma og konsekvenser
+## Forrige uke - Prosjektarbeid og fagsamtaler
 
-- Kalenderuke: 12
-- IT-uke: 25
-- Ukens fagstoff: Film, podkast og artikkel på teams
-- Tema: Etiske dilemma og konsekvenser
-- Ukens oppgaver: Oppgave på teams
+- Kalenderuke: 15
+- IT-uke: 27
+- Ukens fagstoff: -
+- Tema: Prosjektarbeid
+- Ukens oppgaver: Prosjektarbeid
 
 ## Viktige datoer
 
