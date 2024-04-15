@@ -2,7 +2,15 @@
 
 ## Oppgaver
 
-### 2.20 - YouTube
+### 2.20 - Twitter
+
+- Datasett: [twitter.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/twitter.json)
+
+1. Lag et program som finner og presenterer de ti brukerne i datasettet som har flest Twitter-følgere.
+2. Utvid programmet til å regne ut og presentere antall tweets og antall følgere per bruker for disse ti brukerne.
+3. Utfordring: Hvilke følgere i datasettet har høyest følgere/følger-ratio, altså antall som følger kontoen delt på antall som kontoen følger.
+
+### 2.21 - YouTube
 
 > Oppgave 11 fra eksamen H23
 
@@ -17,9 +25,10 @@ Programmet du lager i denne oppgaven, skal inneholde en flerlinjet kommentar øv
 1. Lag et program som finner og presenterer de ti landene i datasettet som har flest YouTube-kanaler.
 2. Utvid programmet til å regne ut og presentere gjennomsnittlig antall abonnenter og videovisninger per kanal for hvert av disse landene.
 
-### 2.21 - Google Play Store
+### 2.22 - Google Play Store (utfordring)
 
 > Oppgave 9 fra eksamen V23
+> OBS! Denne oppgaven er vanskelig. Den krever blanet annet at du _renser_ datasettet
 
 Du skal lage et program som leser inn informasjon fra datasettet og presenterer dette i to oversikter.
 Last ned datasettet her:
