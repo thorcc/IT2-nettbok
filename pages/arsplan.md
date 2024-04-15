@@ -47,8 +47,8 @@
 | 24     | 12.mar  | 14.mar  | [Testing](/apputvikling/testing) og prosjektarbeid: skisse og UML                                                        |
 | 25     | 19.mar  | 21.mar  | Etiske dilemma og konsekvenser og prosjektarbeid: klasser                                                                |
 |        | 26.mar  | 28.mar  | Påske                                                                                                                    |
-| 26     | 02.apr  | 04.apr  | [Dokumentasjon](/apputvikling/dokumentasjon) og prosjektarbeid                                                     |
-| 27     | 09.apr  | 11.apr  | Prosjektarbeid: tilbakemeldinger fra brukere                                                                             |
+| 26     | 02.apr  | 04.apr  | [Dokumentasjon](/apputvikling/dokumentasjon) og prosjektarbeid                                                           |
+| 27     | 09.apr  | 11.apr  | Prosjektarbeid                                                                                                           |
 | 28     | 16.apr  | 18.apr  | Større oppgaver - tentamensøving                                                                                         |
 | 29     | 23.apr  | 25.apr  | Tentamen                                                                                                                 |
 | 30     | 30.apr  | 02.mai  | Gjennomgang av tentamen og bonus                                                                                         |
