@@ -6,7 +6,7 @@
 - IT-uke: 28
 - Ukens fagstoff: -
 - Tema: Større oppgaver
-- Ukens oppgaver: [2.20 - 2.21](/databehandling-og-algoritmer/storre-oppgaver)
+- Ukens oppgaver: [2.20 - 2.21](/databehandling-og-algoritmer/storre-oppgaver) og [3.1 - 3.2](/spillutvikling/oppgaver)
 
 ## Uke 27 - Prosjektarbeid og fagsamtaler
 
