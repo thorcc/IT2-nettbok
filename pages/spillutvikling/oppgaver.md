@@ -38,7 +38,7 @@ Hvis trollet treffer en av hindringene eller spillbrettets kanter, avsluttes spi
 
 ## 4.2 - Manic Mansion
 
-> Eksamen H23 - Oppgave 12
+> Inspirert av eksamen H23 - Oppgave 12
 
 I denne oppgaven skal du utvikle et spill som heter Manic Mansion.
 
@@ -50,7 +50,7 @@ Mennesket skal styres av spilleren, og målet med spillet er å komme seg over p
 
 Du bør sette av om lag to timer til denne oppgaven.
 
-### Krav:
+### Krav
 
 - Ved oppstart skal spillet bestå av et spillebrett, et menneskeobjekt, et spøkelsesobjekt, tre hindringsobjekter og tre saueobjekter.
 - Det skal være en liten frisone både på venstre og høyre side av spillebrettet hvor kun mennesker og sauer kan oppholde seg, mens det ikke kan være spøkelser eller hindringer der.
@@ -76,5 +76,6 @@ På figuren under ser du et forslag til en objektorientert modell for spillet.
 
 ![UML-diagram til oppgave 4.2](./vedlegg/h23-12.jpg)
 
-1. Forklar modellen. Skriv forklaringen i en `.txt`-fil som du legger ved spillet.
-2. Ta utgangspunkt i modellen, gjør tilpasninger av egenskaper og metoder der du mener det er nødvendig, og implementer spillet slik det er beskrevet i kravene. Tilpasningene du gjør, skal dokumenteres med kommentarer i programkoden.
+1. Tegn en skisse av spillet (Bruk [exalidraw.cow](https://excalidraw.com/) eller [draw.io / diagrams.net](https://app.diagrams.net/))
+2. Lag et UML-diagram som viser en oversikt over spillets klasser
+3. Lag spillet
