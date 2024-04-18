@@ -7,8 +7,8 @@
 - Datasett: [twitter.json](https://raw.githubusercontent.com/thorcc/IT2-nettbok/main/pages/databehandling-og-algoritmer/vedlegg/twitter.json)
 
 1. Lag et program som finner og presenterer de ti brukerne i datasettet som har flest Twitter-følgere.
-2. Utvid programmet til å regne ut og presentere antall tweets og antall følgere per bruker for disse ti brukerne.
-3. Utfordring: Hvilke følgere i datasettet har høyest følgere/følger-ratio, altså antall som følger kontoen delt på antall som kontoen følger.
+2. Utvid programmet slik at det regner ut og presenterer antall tweets og antall følgere per bruker for disse ti brukerne.
+3. Utvid programmet slik at det også viser brukerenes følgere/følger-ratio, altså antall som følger kontoen delt på antall som kontoen følger.
 
 ### 2.21 - YouTube
 
