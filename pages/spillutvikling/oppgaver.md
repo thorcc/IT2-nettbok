@@ -72,10 +72,6 @@ Du bør sette av om lag to timer til denne oppgaven.
 
 ### Oppgave
 
-På figuren under ser du et forslag til en objektorientert modell for spillet.
-
-![UML-diagram til oppgave 4.2](./vedlegg/h23-12.jpg)
-
 1. Tegn en skisse av spillet (Bruk [exalidraw.cow](https://excalidraw.com/) eller [draw.io / diagrams.net](https://app.diagrams.net/))
 2. Lag et UML-diagram som viser en oversikt over spillets klasser
 3. Lag spillet
