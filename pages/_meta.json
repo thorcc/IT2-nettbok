@@ -1,20 +1,11 @@
 {
-  "index": "Oversikt",
-  "stortinget-fantasy": "Stortignet-Fantasy",
-  "spillutvikling": "Spillutvikling",
+  "index": "IT2",
+  "flytdiagram": "Flytdiagram",
+  "pseudokode": "Pseudokode",
   "databehandling": "Databehandling",
-  "ukeplaner": {
-    "title": "Ukeplaner",
-    "type": "page"
-  },
-  "emner": {
-    "title": "Emneoversikt",
-    "type": "page"
-  },
-  "arsplan": {
-    "title": "Årsplan",
-    "type": "page"
-  },
+  "stortinget-fantasy": "Stortignet-Fantasy",
+  "spill": "Spill",
+  "testing": "Testing",
   "vurderingskriterier": {
     "title": "Vurderingskriterier",
     "type": "page"

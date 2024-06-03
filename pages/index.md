@@ -1,26 +1,7 @@
-# IT2 - 2023/2024
+# REA3049 - Informasjonsteknologi 2
 
-## Denne uken - Større oppgaver
-
-- Kalenderuke: 16
-- IT-uke: 28
-- Ukens fagstoff: -
-- Tema: Større oppgaver
-- Ukens oppgaver: [2.20 - 2.21](/databehandling-og-algoritmer/storre-oppgaver) og [3.1 - 3.2](/spillutvikling/oppgaver)
-
-## Forrige uke - Prosjektarbeid og fagsamtaler
-
-- Kalenderuke: 15
-- IT-uke: 27
-- Ukens fagstoff: -
-- Tema: Prosjektarbeid
-- Ukens oppgaver: Prosjektarbeid
-
-## Viktige datoer
-
-| Tirsdag | Torsdag | Beksrivelse                                   |
-| ------- | ------- | --------------------------------------------- |
-| 6. feb  | 8. feb  | Prøve - Databehandling og algoritmer          |
-| 23. apr | 25. apr | Tentamen                                      |
-| 10. mai | 10. mai | Mappeinnlevering - Spill og/eller applikasjon |
-| 31. mai | 31. mai | Skriftlig eksamen                             |
+- [Aunivers - IT2](https://innhold.aunivers.no/fagpakker/realfag/informasjonsteknologi-1-2/it-2)
+- [UDIR - Eksamensoppgaver](https://sokeresultat.udir.no/eksamensoppgaver.html?query=informasjonsteknologi%202&ExKL=Kunnskapsl%C3%B8ftet%202020)
+- Pygame-dokumentasjonen: [pygame.org/docs](https://www.pygame.org/docs/)
+- Tegneprogram: [drawio.com/](https://www.drawio.com/)
+- Notater her på IT2.thorcc.no  
