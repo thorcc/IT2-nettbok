@@ -1,4 +1,84 @@
-# Håndtering av feil og testing
+# Testing
+
+## Testklasser
+
+### Eksempel
+
+```python
+class Rektangel:
+    def __init__(self, bredde: int, høyde: int) -> None:
+        self.bredde = bredde
+        self.høyde = høyde
+    def areal(self):
+        return self.bredde * self.høyde
+    
+    def omkrets(self):
+        return 2 * self.bredde + 2 * self.høyde
+
+class TestRektangel:
+    def __init__(self) -> None:
+        self.kvadrat = Rektangel(10, 10)
+        self.vanlig = Rektangel(10, 5)
+    def test_areal(self):
+        assert self.kvadrat.areal() == 100, "Areal skal være 100"
+        assert self.vanlig.areal() == 50, "Areal skal være 50"
+        print("Areal OK!")
+    def test_omkrets(self):
+        assert self.kvadrat.omkrets() == 40, "Omkrets skal være 40"
+        assert self.vanlig.omkrets() == 30, "Omkrets skal være 30"
+        print("Omkrets OK!")
+    def kjør(self):
+        print("-- tester Rektangel --")
+        self.test_areal()
+        self.test_omkrets()
+        print("-- test ferdig --")
+test = TestRektangel()
+test.kjør()
+```
+
+Python har et innebygd bibliotek, `unittest` som kan brukes for å lage egne testklasser.
+Her er noen fine ressurser for å lese om `unittest`-biblioteket:
+
+- [A Beginner's Guide to Unit Tests in Python](https://www.dataquest.io/blog/unit-tests-python/)
+- [A Gentle Introduction to Unit Testing in Python](https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/)
+- [docs.python.org - unittest](https://docs.python.org/3/library/unittest.html)
+
+
+## Testing med assert
+
+Nøkkelordet `assert` kan brukes for å forsikre oss om at koden gjør det vi vil at den skal gjøre.
+`assert` inneholder en test som gir en feilmelding hvis den er `False`, og hvis testen er `True` fortsetter koden.
+
+## Enkel testdrevet utvikling med assert
+
+I _testdrevet utvikling_ lager man først tester og deretter skriver man koden.
+Meningen med testdrevet utvikling er at man ikke skal skrive unødvendig kode, og alle kode man skriver må skrives for å bestå en test.
+
+La oss ta et eksempel med en enkel funksjon som skal finne ut om et tall er partall eller ikke.
+
+Vi starter med å skrive tester.
+Her gjelder det å få med alle tilfeller, eller _test cases_.
+
+```python
+assert partall(2) == True
+assert partall(1) == False
+assert partall(-2) == True
+assert partall(-1) == False
+```
+
+Nå kan vi skrive kode som oppfyller testene.
+
+```python
+def partall(tall: int):
+    return tall % 2 == 0
+
+assert partall(2) == True
+assert partall(1) == False
+assert partall(-2) == True
+assert partall(-1) == False
+```
+
+Mer om `assert`: [W3Schools - assert](https://www.w3schools.com/python/ref_keyword_assert.asp)
 
 ## Håndtering av feil
 
@@ -32,56 +112,36 @@ fødselsår = år - alder
 print(f"Du er født i {fødselsår}")
 ```
 
-## Testing
-
-### Testing med assert
-
-Nøkkelordet `assert` kan brukes for å forsikre oss om at koden gjør det vi vil at den skal gjøre.
-`assert` inneholder en test som gir en feilmelding hvis den er `False`, og hvis testen er `True` fortsetter koden.
-
-### Enkel testdrevet utvikling med assert
-
-I _testdrevet utvikling_ lager man først tester og deretter skriver man koden.
-Meningen med testdrevet utvikling er at man ikke skal skrive unødvendig kode, og alle kode man skriver må skrives for å bestå en test.
-
-La oss ta et eksempel med en enkel funksjon som skal finne ut om et tall er partall eller ikke.
-
-Vi starter med å skrive tester.
-Her gjelder det å få med alle tilfeller, eller _test cases_.
-
-```python
-assert partall(2) == True
-assert partall(1) == False
-assert partall(-2) == True
-assert partall(-1) == False
-```
-
-Nå kan vi skrive kode som oppfyller testene.
-
-```python
-def partall(tall: int):
-    return tall % 2 == 0
-
-assert partall(2) == True
-assert partall(1) == False
-assert partall(-2) == True
-assert partall(-1) == False
-```
-
-Mer om `assert`: [W3Schools - assert](https://www.w3schools.com/python/ref_keyword_assert.asp)
-
-### Testklasser
-
-Python har et innebygd bibliotek, `unittest` som kan brukes for å lage egne testklasser.
-Her er noen fine ressurser for å lese om `unittest`-biblioteket:
-
-- [A Beginner's Guide to Unit Tests in Python](https://www.dataquest.io/blog/unit-tests-python/)
-- [A Gentle Introduction to Unit Testing in Python](https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/)
-- [docs.python.org - unittest](https://docs.python.org/3/library/unittest.html)
-
 ## Oppgaver
 
-### 3.13
+### Oppgave 1
+
+Lag en testklasse til klassen `Bruker`.
+
+
+```python
+class Bruker:
+    def __init__(self, fornavn: str, etternavn: str) -> None:
+        self.fornavn = fornavn
+        self.etternavn = etternavn
+    
+    def formelt(self):
+        # Metode som retunerer etternavn, fornavn: eks: Coward, Thor Christian
+        return f"{self.etternavn}, {self.fornavn}"
+    
+    def brukernavn(self):
+        # metode som returnerer brukernavn, første del av fornavn pluss første
+        # bokstav i etternavnet: eks: thorc
+        return self.fornavn.lower() + self.etternavn.lower()[0]
+    
+    def mail(self, fylke: str):
+        # metode som returnerer mail: brukernavn@fylke.no:
+        # eks: thorc@akershus.no
+        return f"{self.brukernavn()}@{fylke}.com"
+
+```
+
+### Oppgave 2
 
 Kopier koden under inn i en .py- eller en .ipynb-fil, og legg til en kommentar på hver linje som forklarer hva linjene gjør.
 
@@ -97,14 +157,14 @@ fødselsår = år - alder                                 #
 print(f"Du er født i {fødselsår}")                     #
 ```
 
-## 3.14
+### Oppgave 3
 
 Lag et program som genrerer mailadresser fra fornavn og etternavn.
 Mailen skal bestå av hele det første fornavnet og første bokstav i etternavnet etterfulgt av `@afk.no`.
 For eksempel skal `Thor Christian Coward` bli `thorc@afk.no`.
 Som input til programmet må brukeren skrive inn minst to navn (fornavn og etternavn), hvis ikke skal brukeren få en feilmelding og få lov til å skrive input på nytt.
 
-## 3.15
+### Oppgave 4
 
 I denne oppgaven skal du lage ferdig en funksjon som returnerer `True` om et årstall er skuddår og `False` hvis årstallet ikke er et skuddår.
 
@@ -125,7 +185,7 @@ for år in range(1704, 2197):
         assert er_skuddår(år) == False
 ```
 
-## 3.16 - Oppgave 6 v23
+### Oppgave 5
 
 Gjør oppgave 6 fra eksamen våren 23.
 
