@@ -30,7 +30,7 @@ for kort in hånd:
 - Værmelding fra metrologisk institutt: [https://api.met.no/weatherapi/locationforecast/2.0/documentation](https://api.met.no/weatherapi/locationforecast/2.0/documentation)
 
 Noen API-er innheholder veldig mye data.
-Da kan det være lurt å *dumpe* all dataen i en JSON-fil, for så og studere hva og hvordan vi kan hente ut dataen vi ønsker.
+Da kan det være lurt å _dumpe_ all dataen i en JSON-fil, for så og studere hva og hvordan vi kan hente ut dataen vi ønsker.
 
 ```python
 import requests
@@ -61,7 +61,7 @@ I denne oppgaven skal du lage et værprogram der brukeren kan skrive inn navnet 
 
 1. Bruk bibliotektet [Geocoder](https://geocoder.readthedocs.io/providers/ArcGIS.html) og lag et program der brukeren kan skrive inn et stedsnavn, også printer programmet lengdegrad (lon) og breddegrad (lat) til stedet.
 2. Bruk Meterologisk intstitutts API og utvid programmet slik at værmeldingen for stedet brukeren skrev inn i printes.
-    - Tips: Se [eksempel - Værdata](#eksempel---værdata)
+   - Tips: Se [eksempel - Værdata](#eksempel---værdata)
 
 ### Oppgave 2.19
 
@@ -82,7 +82,7 @@ body = """
   stopPlace(id: "NSR:StopPlace:548") {
     id
     name
-    estimatedCalls(timeRange: 72100, numberOfDepartures: 10) {     
+    estimatedCalls(timeRange: 72100, numberOfDepartures: 10) {
       realtime
       aimedArrivalTime
       aimedDepartureTime
